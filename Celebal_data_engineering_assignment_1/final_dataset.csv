@@ -1,0 +1,1001 @@
+product_id,title,category,rating,price,quantity,total_amount
+8376765,Lino Perros,backpacks,3.8,3995.0,3,11985.0
+9136281,Tommy Hilfiger,backpacks,4.5,2899.0,4,11596.0
+17633752,Lavie,backpacks,4.4,2999.0,1,2999.0
+1376949,F Gear,backpacks,4.4,1675.0,3,5025.0
+13939916,MYTRIDENT,bath-robe,4.7,2899.0,3,8697.0
+17198778,H&M,bathroom-accessories,4.5,1399.0,4,5596.0
+19851824,AVI Living,bath-towels,4.0,1399.0,1,1399.0
+18602872,My Room,bedsheets,4.7,2999.0,1,2999.0
+18602850,My Room,bedsheets,4.5,2999.0,3,8997.0
+8961147,Story@home,bedsheets,3.7,2199.0,2,4398.0
+8430275,MYTRIDENT,bedsheets,4.4,2199.0,3,6597.0
+18346118,Arrabi,bedsheets,0.0,3329.0,3,9987.0
+18327434,BELLA CASA,bedsheets,0.0,1499.0,3,4497.0
+18492504,ROMEE,bedsheets,3.9,3499.0,3,10497.0
+13729978,DDecor,bedsheets,3.6,1599.0,4,6396.0
+19788630,Home Ecstasy,bedsheets,4.5,1199.0,1,1199.0
+20296382,DREAM WEAVERZ,bedsheets,3.8,2599.0,4,10396.0
+18346134,Arrabi,bedsheets,4.3,6329.0,4,25316.0
+22409156,Kastner,belts,3.8,1399.0,4,5596.0
+18985918,Tommy Hilfiger,bodysuit,4.1,2999.0,3,8997.0
+22120138,Ed-a-Mamma Baby,bodysuit,4.2,999.0,2,1998.0
+1728397,Mactree,boots,3.9,9060.0,1,9060.0
+21427828,London Rag,boots,5.0,9599.0,2,19198.0
+17372928,The Souled Store,boxers,4.5,799.0,4,3196.0
+15115018,Jockey,bra,4.4,579.0,4,2316.0
+22063882,GROVERSONS Paris Beauty,bra,4.0,399.0,2,798.0
+19219450,Susie,bra,4.3,749.0,2,1498.0
+22196924,Zivame,bra,4.3,999.0,2,1998.0
+19219468,Susie,bra,4.0,699.0,4,2796.0
+22278620,Tweens,bra,0.0,720.0,4,2880.0
+19277544,Marks & Spencer,bra,4.3,2999.0,1,2999.0
+18223842,max,bra,4.1,449.0,1,449.0
+18656766,VStar,bra,4.6,345.0,4,1380.0
+18656764,VStar,bra,4.3,345.0,2,690.0
+13523458,shyaway,bra,4.3,2547.0,2,5094.0
+18652628,max,bra,4.2,649.0,1,649.0
+17774350,Zivame,bra,4.2,995.0,4,3980.0
+16704504,ZINU,bracelet,4.1,699.0,1,699.0
+21873792,KARATCART,bracelet,4.6,3397.0,1,3397.0
+21573578,Jewels Galaxy,bracelet,4.2,1329.0,3,3987.0
+18100576,MINUTIAE,bracelet,3.2,1499.0,3,4497.0
+18532334,Pepe Jeans,briefs,0.0,459.0,3,1377.0
+16696094,Van Heusen,briefs,4.6,649.0,2,1298.0
+21867416,DressBerry,briefs,4.1,299.0,4,1196.0
+21850852,Soie,briefs,4.9,390.0,4,1560.0
+21860658,EROTISSCH,briefs,0.0,899.0,4,3596.0
+21569986,Chromozome,briefs,4.2,1199.0,4,4796.0
+19206416,ABELINO,briefs,3.6,1899.0,3,5697.0
+22196594,Zoiro,briefs,5.0,499.0,2,998.0
+22196914,Zivame,briefs,4.6,799.0,2,1598.0
+21906602,bummer,briefs,4.6,599.0,3,1797.0
+13889998,XYXX,briefs,4.1,249.0,2,498.0
+22436508,Bruchi CLUB,briefs,5.0,888.0,3,2664.0
+21877640,DressBerry,camisoles,3.7,299.0,4,1196.0
+18882294,VStar,camisoles,4.8,265.0,3,795.0
+21882284,H&M,candle-holders,0.0,1299.0,4,5196.0
+13669894,Vastraa Fusion,caps,3.5,1699.0,4,6796.0
+16281444,Bharatasya,caps,4.3,699.0,1,699.0
+20129438,Skechers,casual-shoes,3.8,12999.0,3,38997.0
+18506050,Bata,casual-shoes,4.4,1199.0,1,1199.0
+21739362,Prolific,casual-shoes,3.9,2660.0,3,7980.0
+21903832,U.S. Polo Assn.,casual-shoes,4.1,4299.0,3,12897.0
+21651940,HIGHLANDER,casual-shoes,3.4,1898.0,1,1898.0
+21321784,San Frissco,casual-shoes,4.3,5995.0,1,5995.0
+21482828,Eego Italy,casual-shoes,0.0,2999.0,3,8997.0
+21907914,MOZAFIA,casual-shoes,4.0,1999.0,2,3998.0
+21497770,Puma,casual-shoes,4.1,4999.0,4,19996.0
+21169272,HRX by Hrithik Roshan,casual-shoes,3.9,3299.0,1,3299.0
+13643492,WROGN,casual-shoes,3.7,3599.0,4,14396.0
+13638220,FAUSTO,casual-shoes,3.2,999.0,2,1998.0
+13638232,FAUSTO,casual-shoes,2.5,1299.0,2,2598.0
+18489168,TOMS,casual-shoes,4.3,4999.0,2,9998.0
+18997532,Fame Forever by Lifestyle,casual-shoes,0.0,999.0,1,999.0
+18091436,HIGHLANDER,casual-shoes,3.9,2198.0,2,4396.0
+17312062,Clarks,casual-shoes,4.6,6999.0,1,6999.0
+17314086,EVERLY,casual-shoes,3.7,1499.0,2,2998.0
+17312144,Clarks,casual-shoes,3.7,10999.0,4,43996.0
+17350218,Delize,casual-shoes,0.0,13999.0,4,55996.0
+17361518,Buckaroo,casual-shoes,0.0,4999.0,3,14997.0
+16284648,Crew STREET,casual-shoes,4.1,3099.0,4,12396.0
+19103830,PUMA Motorsport,casual-shoes,4.5,6999.0,3,20997.0
+21937664,Cortina,chair-cover,4.7,2598.0,4,10392.0
+16712992,Cutiekins,clothing-set,4.1,1999.0,1,1999.0
+21836198,Nottie Planet,clothing-set,4.5,449.0,4,1796.0
+18193844,Rubans,clutches,4.1,1980.0,3,5940.0
+16694464,Ahalyaa,co-ords,4.1,5000.0,3,15000.0
+18494054,Home Sizzler,curtains-and-sheers,4.3,799.0,2,1598.0
+18462808,Homefab India,curtains-and-sheers,0.0,1199.0,1,1199.0
+16185546,ellementry,cutlery,5.0,1750.0,4,7000.0
+15174886,MIAH Decor,dinnerware,3.2,599.0,2,1198.0
+21664722,Curvy Clan,dresses,3.7,2999.0,4,11996.0
+21426422,Trendyol,dresses,4.1,4399.0,4,17596.0
+21238004,COVER STORY,dresses,4.8,3490.0,2,6980.0
+21426632,Trendyol,dresses,3.9,3599.0,2,7198.0
+21673378,RACHNA,dresses,3.0,1299.0,2,2598.0
+21664936,Label Ritu Kumar,dresses,0.0,5900.0,2,11800.0
+21665324,Harpa,dresses,2.3,1999.0,2,3998.0
+21664854,aarke Ritu Kumar,dresses,4.0,2200.0,4,8800.0
+21664974,Label Ritu Kumar,dresses,4.6,4500.0,2,9000.0
+21664840,aarke Ritu Kumar,dresses,4.0,3500.0,1,3500.0
+21980370,Tokyo Talkies,dresses,3.7,1599.0,3,4797.0
+21616436,Curves by MISH,dresses,0.0,3999.0,2,7998.0
+21988674,Sangria,dresses,0.0,2999.0,2,5998.0
+22004792,WoowZerz,dresses,4.8,2495.0,4,9980.0
+21979790,Vishudh,dresses,3.8,2049.0,2,4098.0
+18962890,Athena,dresses,4.0,2499.0,2,4998.0
+19027298,DressBerry,dresses,3.8,1499.0,2,2998.0
+18962984,Athena,dresses,4.3,2499.0,4,9996.0
+18951626,Berrylush,dresses,4.0,1899.0,2,3798.0
+18816460,Ethnovog,dresses,3.7,7828.0,3,23484.0
+18944812,DRAAX Fashions,dresses,3.6,2399.0,4,9596.0
+18977246,AURELIA,dresses,4.1,4299.0,3,12897.0
+18803110,Athena Girl,dresses,3.5,2299.0,4,9196.0
+18962990,Athena,dresses,4.2,2499.0,2,4998.0
+18951632,Berrylush,dresses,3.9,1899.0,3,5697.0
+18956684,Forevermore,dresses,4.2,1599.0,4,6396.0
+18981160,Amydus,dresses,4.7,2799.0,1,2799.0
+18962952,Athena,dresses,4.2,2799.0,2,5598.0
+18207844,H&M,dresses,3.0,1999.0,4,7996.0
+15736838,U&F,dresses,3.8,1999.0,1,1999.0
+15788324,Tokyo Talkies,dresses,4.2,1399.0,4,5596.0
+15691054,QUIERO,dresses,3.4,2686.0,1,2686.0
+15691070,QUIERO,dresses,4.1,2820.0,2,5640.0
+13770986,all about you,dresses,4.2,2999.0,3,8997.0
+17586858,RARE,dresses,3.4,1799.0,1,1799.0
+17692606,Style Quotient,dresses,3.9,1899.0,4,7596.0
+17592092,U&F,dresses,4.1,2899.0,2,5798.0
+17661682,Tokyo Talkies,dresses,4.1,1549.0,1,1549.0
+17692718,Style Quotient,dresses,4.8,1599.0,4,6396.0
+17194598,Tokyo Talkies,dresses,4.3,1749.0,4,6996.0
+17194592,Tokyo Talkies,dresses,4.1,1749.0,4,6996.0
+18207478,Tokyo Talkies,dresses,4.1,699.0,1,699.0
+19032542,BUY NEW TREND,dresses,3.8,1499.0,1,1499.0
+18996672,Bella Moda,dresses,4.6,2017.0,1,2017.0
+19213302,8seconds,dresses,0.0,5099.0,3,15297.0
+15191784,Kazo,dresses,4.0,3690.0,1,3690.0
+19213200,Label Ritu Kumar,dresses,4.8,5200.0,1,5200.0
+19213186,Label Ritu Kumar,dresses,1.9,6900.0,1,6900.0
+15104856,SCORPIUS,dresses,0.0,1999.0,3,5997.0
+20040576,U&F,dresses,3.8,2899.0,1,2899.0
+19987092,Vastralay,dresses,4.2,2999.0,4,11996.0
+10054817,Veni Vidi Vici,dresses,4.3,1890.0,1,1890.0
+10054855,Veni Vidi Vici,dresses,4.2,1890.0,4,7560.0
+10691426,SASSAFRAS,dresses,4.5,2199.0,4,8796.0
+20040566,U&F,dresses,3.3,2899.0,4,11596.0
+18963006,Athena,dresses,4.3,2499.0,3,7497.0
+19513066,Stylecast X Hersheinbox,dresses,4.5,2559.0,3,7677.0
+13703862,Style Quotient,dresses,3.9,1749.0,3,5247.0
+18975316,Berrylush,dresses,4.2,3200.0,1,3200.0
+21664826,aarke Ritu Kumar,dresses,4.0,2800.0,4,11200.0
+21242962,Tommy Hilfiger,dresses,4.4,5999.0,3,17997.0
+21653646,ONLY,dresses,4.6,3299.0,3,9897.0
+21661136,Kannan,dresses,0.0,2299.0,1,2299.0
+20022902,Slenor,dresses,4.4,3599.0,3,10797.0
+20052002,StyleStone,dresses,0.0,1599.0,1,1599.0
+20046216,YK Disney,dresses,5.0,999.0,2,1998.0
+22616192,Oomph!,dresses,3.9,1340.0,3,4020.0
+13391600,Mast & Harbour,dresses,3.7,1499.0,2,2998.0
+22590642,YU by Pantaloons,dresses,4.8,1499.0,1,1499.0
+13572604,Tokyo Talkies,dresses,4.2,1799.0,4,7196.0
+13649832,all about you,dresses,4.3,1999.0,3,5997.0
+13487998,THREAD MUSTER,dresses,2.7,2499.0,1,2499.0
+13467444,Sugr,dresses,3.8,899.0,4,3596.0
+13387584,Wish Karo,dresses,4.1,1999.0,4,7996.0
+22634940,Rustorange,dresses,3.8,3399.0,2,6798.0
+22622806,HERE&NOW,dresses,4.0,2999.0,1,2999.0
+13558254,Tokyo Talkies,dresses,4.1,1349.0,4,5396.0
+13586840,all about you,dresses,4.0,1899.0,3,5697.0
+13586818,all about you,dresses,4.0,1899.0,3,5697.0
+13406942,Global Desi,dresses,4.8,1799.0,2,3598.0
+1341220,Miss Chase,dresses,4.4,1149.0,4,4596.0
+13387582,Wish Karo,dresses,4.7,2123.0,1,2123.0
+22638540,Oomph!,dresses,2.3,1340.0,3,4020.0
+13391540,Mast & Harbour,dresses,4.1,1999.0,4,7996.0
+13447736,DODO & MOA,dresses,2.1,2799.0,4,11196.0
+13435624,Deewa,dresses,4.1,2199.0,2,4398.0
+13382036,plusS,dresses,4.2,1899.0,3,5697.0
+22610596,NIGHTSPREE,dresses,0.0,2799.0,3,8397.0
+13449506,DOOR74,dresses,5.0,2399.0,1,2399.0
+13411990,DODO & MOA,dresses,2.8,2990.0,3,8970.0
+22590644,YU by Pantaloons,dresses,4.7,1399.0,1,1399.0
+13375140,HOUSE OF KKARMA,dresses,3.9,3499.0,3,10497.0
+13398280,Zastraa,dresses,4.3,3299.0,2,6598.0
+12933978,Oxolloxo,dresses,0.0,1899.0,3,5697.0
+13379612,THE SILHOUETTE STORE,dresses,2.0,1399.0,1,1399.0
+22630128,NUEVOSDAMAS,dresses,2.8,1999.0,1,1999.0
+22610562,NIGHTSPREE,dresses,0.0,2299.0,2,4598.0
+22596522,Vero Moda,dresses,4.3,3799.0,3,11397.0
+22619942,Styli,dresses,3.7,2799.0,3,8397.0
+13400194,Style Quotient,dresses,0.0,1299.0,2,2598.0
+21683822,ASTRID,duffel-bag,0.0,2099.0,3,6297.0
+12356000,KLEIO,duffel-bag,4.6,3499.0,3,10497.0
+12944214,Cherry Crumble,dungarees,3.8,2599.0,1,2599.0
+20065316,Clora Creation,dupatta,0.0,2199.0,3,6597.0
+19761848,Clora Creation,dupatta,0.0,1299.0,3,3897.0
+17739270,Clora Creation,dupatta,0.0,999.0,2,1998.0
+21656682,Dupatta Bazaar,dupatta,4.3,999.0,2,1998.0
+22601102,Nimidiya,dupatta,0.0,999.0,4,3996.0
+22601210,Nimidiya,dupatta,4.5,999.0,1,999.0
+22601148,Nimidiya,dupatta,3.3,999.0,3,2997.0
+22601132,Nimidiya,dupatta,3.2,999.0,3,2997.0
+20195790,Dupatta Bazaar,dupatta,4.7,999.0,4,3996.0
+12999996,Vishudh,dupatta,4.6,599.0,3,1797.0
+22585502,Nimidiya,dupatta,0.0,999.0,1,999.0
+15720652,Rubans,earrings,3.8,1480.0,4,5920.0
+15713414,Crunchy Fashion,earrings,4.2,1998.0,1,1998.0
+15750524,Priyaasi,earrings,4.4,7999.0,4,31996.0
+15014966,Priyaasi,earrings,4.9,3949.0,4,15796.0
+10125243,KARATCART,earrings,4.0,1282.0,2,2564.0
+10564232,PRITA BY PRIYAASI,earrings,4.3,1130.0,1,1130.0
+10145409,Jewels Galaxy,earrings,0.0,1199.0,3,3597.0
+10135431,Priyaasi,earrings,4.5,1000.0,3,3000.0
+10125225,KARATCART,earrings,4.1,1568.0,1,1568.0
+10125241,KARATCART,earrings,4.2,1711.0,3,5133.0
+19925208,Yellow Chimes,earrings,4.1,774.0,3,2322.0
+20064092,AMI,earrings,3.8,1995.0,1,1995.0
+17354670,ANIKAS CREATION,earrings,4.0,1995.0,4,7980.0
+20041906,KARATCART,earrings,4.3,1730.0,1,1730.0
+19821318,Golden Peacock,earrings,0.0,1149.0,4,4596.0
+22600236,Inddus Jewels,earrings,0.0,5099.0,3,15297.0
+22601952,SOHI,earrings,4.5,1455.0,3,4365.0
+22618882,Saraf RS Jewellery,earrings,4.2,3795.0,3,11385.0
+22593810,ZENEME,earrings,0.0,2999.0,2,5998.0
+14467848,GIVA,earrings,4.4,2799.0,4,11196.0
+14399558,Shoshaa,earrings,4.6,2488.0,2,4976.0
+19072820,FemNmas,earrings,4.4,249.0,2,498.0
+13402874,Crunchy Fashion,earrings,4.2,1575.0,1,1575.0
+13401002,Adwitiya Collection,earrings,0.0,3189.0,2,6378.0
+13340876,Kord Store,earrings,4.4,4524.0,1,4524.0
+12930940,TOKYO TALKIES X rubans FASHION ACCESSORIES,earrings,3.9,1650.0,1,1650.0
+12930744,ANIKAS CREATION,earrings,4.4,1075.0,2,2150.0
+12928940,ANIKAS CREATION,earrings,0.0,1600.0,4,6400.0
+12928904,ANIKAS CREATION,earrings,3.8,1600.0,4,6400.0
+22600220,Inddus Jewels,earrings,0.0,6599.0,4,26396.0
+22593700,ZENEME,earrings,0.0,3999.0,4,15996.0
+13445210,ANIKAS CREATION,earrings,0.0,580.0,4,2320.0
+22593680,ZENEME,earrings,0.0,2999.0,2,5998.0
+22593696,ZENEME,earrings,0.0,2799.0,2,5598.0
+21604464,Inddus,ethnic-dresses,3.3,6299.0,3,18897.0
+21990058,Rustorange,ethnic-dresses,5.0,3299.0,4,13196.0
+21992820,PANIT,ethnic-dresses,4.4,7999.0,2,15998.0
+15741084,Ashnaina,ethnic-dresses,3.2,1799.0,3,5397.0
+15741088,Ashnaina,ethnic-dresses,4.1,1799.0,4,7196.0
+15788632,AURELIA,ethnic-dresses,4.2,2499.0,1,2499.0
+15749780,W,ethnic-dresses,4.3,3999.0,3,11997.0
+16197802,Vishudh,ethnic-dresses,3.9,3049.0,2,6098.0
+19197596,W,ethnic-dresses,3.9,2799.0,1,2799.0
+18922226,Ahalyaa,ethnic-dresses,2.8,4300.0,1,4300.0
+22411344,Juniper,ethnic-dresses,3.9,4149.0,1,4149.0
+19990734,VASTRAMAY,ethnic-dresses,4.7,2499.0,3,7497.0
+10127829,Geroo Jaipur,ethnic-dresses,3.8,2499.0,2,4998.0
+10132319,Karmic Vision,ethnic-dresses,3.9,4999.0,1,4999.0
+13404948,YASH GALLERY,ethnic-dresses,4.1,3899.0,4,15596.0
+12994772,Souchii,ethnic-dresses,3.9,1999.0,1,1999.0
+13355452,Rangriti,ethnic-dresses,4.4,1299.0,1,1299.0
+13405888,Saanjh,ethnic-dresses,4.0,1969.0,3,5907.0
+22603284,JAIPURI COLLECTION,ethnic-dresses,3.9,2899.0,3,8697.0
+22583702,Mialo fashion,ethnic-dresses,2.7,2999.0,2,5998.0
+15787112,Mamaearth,face-moisturisers,4.3,319.0,4,1276.0
+10075857,Organic Harvest,face-moisturisers,3.7,845.0,3,2535.0
+12926546,natural vibes,face-wash-and-cleanser,4.8,449.0,1,449.0
+18299664,Bata,flats,3.8,1199.0,2,2398.0
+19974396,FORVELA,flats,3.9,999.0,1,999.0
+16704788,Birkenstock,flats,4.5,4990.0,1,4990.0
+21888172,Brauch,flats,4.0,1499.0,3,4497.0
+21735080,Birkenstock,flats,4.5,6990.0,2,13980.0
+21735014,Birkenstock,flats,4.8,9490.0,4,37960.0
+21928414,Clarks,flats,4.0,3499.0,4,13996.0
+21866528,SAPATOS,flats,0.0,999.0,3,2997.0
+18638536,CODE by Lifestyle,flats,4.0,1499.0,3,4497.0
+13596626,Anouk,flats,4.3,2299.0,2,4598.0
+13533588,Padvesh,flats,3.9,899.0,4,3596.0
+22413952,Styli,flats,0.0,1599.0,4,6396.0
+21205620,Tommy Hilfiger,flip-flops,4.3,2599.0,4,10396.0
+21497394,Puma,flip-flops,4.1,999.0,1,999.0
+18489598,Campus,flip-flops,3.1,449.0,4,1796.0
+18521180,Reebok,flip-flops,4.5,1999.0,1,1999.0
+18504724,Bata,flip-flops,3.5,999.0,2,1998.0
+20124616,Duke,flip-flops,4.3,399.0,1,399.0
+19790160,toothless,flip-flops,4.1,499.0,2,998.0
+18598106,Ginger by Lifestyle,flip-flops,4.4,499.0,4,1996.0
+13579258,HIGHLANDER,flip-flops,3.8,798.0,4,3192.0
+16168398,Bata,flip-flops,4.1,599.0,2,1198.0
+15134218,Paragon,flip-flops,4.0,599.0,3,1797.0
+19256318,Lil Lollipop,flip-flops,0.0,1390.0,2,2780.0
+13639590,U.S. Polo Assn.,flip-flops,3.5,1499.0,3,4497.0
+21431930,yoho,flip-flops,4.0,1499.0,1,1499.0
+21597086,Paragon,flip-flops,3.0,799.0,1,799.0
+13374246,Saral Home,floor-mats--dhurries,0.0,1999.0,1,1999.0
+13374206,Saral Home,floor-mats--dhurries,3.4,1199.0,4,4796.0
+13374286,Saral Home,floor-mats--dhurries,4.7,1999.0,1,1999.0
+13374306,Saral Home,floor-mats--dhurries,0.0,1999.0,3,5997.0
+13374334,Saral Home,floor-mats--dhurries,4.4,1999.0,1,1999.0
+1848495,Teakwood Leathers,formal-shoes,3.5,10199.0,2,20398.0
+21850100,FAUSTO,formal-shoes,0.0,999.0,2,1998.0
+19778366,EZOK,formal-shoes,0.0,4299.0,4,17196.0
+21869550,San Frissco,formal-shoes,0.0,7995.0,2,15990.0
+21931392,Clarks,formal-shoes,4.4,9999.0,3,29997.0
+21524384,FAUSTO,formal-shoes,0.0,1399.0,1,1399.0
+17755896,Red Tape,formal-shoes,4.0,6899.0,4,27596.0
+21679542,INVICTUS,formal-shoes,0.0,4595.0,1,4595.0
+21656954,Fashion Victim,formal-shoes,3.5,3999.0,1,3999.0
+22609796,HERE&NOW,formal-shoes,3.7,2999.0,3,8997.0
+13376884,DAVINCHI,formal-shoes,0.0,6990.0,2,13980.0
+13411744,CARLO ROMANO,formal-shoes,3.7,3998.0,2,7996.0
+21602846,SUGAR,foundation,4.2,899.0,1,899.0
+14950128,YK,gloves,4.5,699.0,4,2796.0
+21996616,CHANDERKASH,hair-accessory,3.0,1199.0,2,2398.0
+22579802,DIAN,hair-accessory,1.8,1000.0,4,4000.0
+16721772,BodyHerbals,hair-brush-and-comb,4.4,399.0,2,798.0
+18584192,7 DAYS,hair-cream-and-mask,4.5,499.0,4,1996.0
+18584190,7 DAYS,hair-masks,4.4,499.0,3,1497.0
+21421856,Baggit,handbags,4.4,1990.0,4,7960.0
+21421918,Baggit,handbags,4.6,1890.0,3,5670.0
+16696848,Accessorize,handbags,4.6,4995.0,3,14985.0
+21232798,ESTALON,handbags,0.0,2499.0,4,9996.0
+18200086,Caprese,handbags,4.0,3699.0,3,11097.0
+7743536,Lino Perros,handbags,4.5,4495.0,1,4495.0
+7743355,Lino Perros,handbags,4.3,3495.0,3,10485.0
+8293015,Lychee bags,handbags,3.9,1699.0,2,3398.0
+17637810,Toteteca,handbags,4.8,3099.0,4,12396.0
+17761230,Caprese,handbags,4.1,3999.0,1,3999.0
+15188034,Metro,handbags,4.3,1290.0,4,5160.0
+21762808,Baggit,handbags,4.6,1690.0,2,3380.0
+21421996,Baggit,handbags,4.5,1990.0,2,3980.0
+21621752,Berrylush,handbags,4.0,3299.0,2,6598.0
+13359482,FLYING BERRY,handbags,4.9,2999.0,3,8997.0
+13389422,DailyObjects,handbags,4.3,2999.0,3,8997.0
+13389410,DailyObjects,handbags,4.2,2999.0,4,11996.0
+22603262,DailyObjects,handbags,3.8,3999.0,4,15996.0
+17743820,NOISE,headphones,3.8,3499.0,1,3499.0
+19219056,BLAUPUNKT,headphones,4.5,5999.0,1,5999.0
+16193242,CrossBeats,headphones,1.7,9999.0,4,39996.0
+13474452,Allen Solly,heels,4.3,2299.0,3,6897.0
+17647418,FOOTONS,heels,5.0,3199.0,2,6398.0
+18596612,Brauch,heels,0.0,999.0,4,3996.0
+13475738,TRASE,heels,4.0,1599.0,1,1599.0
+22217088,DressBerry,heels,4.1,1599.0,3,4797.0
+22200396,Bruno Manetti,heels,4.0,3999.0,4,15996.0
+19217010,Inc 5,heels,4.4,2690.0,4,10760.0
+22200418,Bruno Manetti,heels,3.9,3999.0,3,11997.0
+15120922,Anouk,heels,4.0,2699.0,4,10796.0
+16276014,Iris,home-fragrance-set,4.5,700.0,3,2100.0
+16299490,Bodycare Kids,innerwear-vests,3.8,978.0,2,1956.0
+22429820,YK Basics,innerwear-vests,3.5,1299.0,3,3897.0
+19014822,mothercare,jackets,4.6,3499.0,3,10497.0
+19015560,U.S. Polo Assn. Kids,jackets,4.5,2499.0,3,7497.0
+19020502,U.S. Polo Assn.,jackets,4.4,6299.0,4,25196.0
+19014828,mothercare,jackets,4.5,2999.0,4,11996.0
+18976038,VOXATI,jackets,3.9,2599.0,3,7797.0
+19015652,U.S. Polo Assn. Kids,jackets,4.2,2799.0,4,11196.0
+19020536,U.S. Polo Assn.,jackets,4.1,6999.0,1,6999.0
+19020616,U.S. Polo Assn.,jackets,4.3,6299.0,1,6299.0
+19020478,U.S. Polo Assn.,jackets,4.3,4599.0,4,18396.0
+19002890,VERO AMORE,jackets,0.0,3850.0,4,15400.0
+19020722,U.S. Polo Assn.,jackets,4.0,5999.0,3,17997.0
+19837040,High Star,jackets,4.1,3749.0,2,7498.0
+19837008,High Star,jackets,3.9,4549.0,4,18196.0
+19020654,U.S. Polo Assn.,jackets,4.0,6999.0,1,6999.0
+14991614,Roadster,jackets,4.2,1699.0,3,5097.0
+16182066,People,jackets,4.3,1799.0,4,7196.0
+16175148,Status Quo,jackets,0.0,4999.0,1,4999.0
+19231126,Mast & Harbour,jackets,4.2,4499.0,1,4499.0
+14979464,Yuuki,jackets,0.0,2199.0,2,4398.0
+19987190,Peter England,jackets,3.9,2499.0,3,7497.0
+19020564,U.S. Polo Assn.,jackets,4.3,5299.0,3,15897.0
+19015534,U.S. Polo Assn. Kids,jackets,4.1,2499.0,2,4998.0
+19020450,U.S. Polo Assn.,jackets,4.3,6499.0,2,12998.0
+19020572,U.S. Polo Assn.,jackets,4.0,5499.0,3,16497.0
+14281506,HRX by Hrithik Roshan,jackets,3.9,3299.0,3,9897.0
+11973216,Mast & Harbour,jackets,4.0,2699.0,4,10796.0
+19020676,U.S. Polo Assn.,jackets,4.6,5699.0,4,22796.0
+19020358,U.S. Polo Assn.,jackets,3.5,5799.0,2,11598.0
+19020568,U.S. Polo Assn.,jackets,4.2,6999.0,4,27996.0
+18973692,Levis,jeans,4.2,4099.0,1,4099.0
+18973742,Levis,jeans,4.2,4399.0,4,17596.0
+19008522,Calvin Klein Jeans,jeans,3.8,7999.0,4,31996.0
+18974084,Levis,jeans,4.2,4399.0,1,4399.0
+18873126,KETCH,jeans,4.0,1749.0,2,3498.0
+18826658,Chemistry,jeans,3.7,1899.0,1,1899.0
+18960426,Lee,jeans,3.9,3799.0,4,15196.0
+18802522,BEAT LONDON by PEPE JEANS,jeans,4.0,2799.0,2,5598.0
+18973648,Levis,jeans,4.2,4099.0,4,16396.0
+18973888,Levis,jeans,4.4,4099.0,1,4099.0
+18973730,Levis,jeans,4.1,4399.0,1,4399.0
+18973948,Levis,jeans,4.0,4999.0,4,19996.0
+19008496,Calvin Klein Jeans,jeans,5.0,7999.0,3,23997.0
+18873142,KETCH,jeans,0.0,1849.0,3,5547.0
+18992754,AMERICAN EAGLE OUTFITTERS,jeans,4.8,4499.0,1,4499.0
+18973922,Levis,jeans,4.1,4099.0,1,4099.0
+18979610,KiddoPanti,jeans,3.9,1399.0,3,4197.0
+18675392,Jack & Jones,jeans,3.8,3499.0,3,10497.0
+18973950,Levis,jeans,4.1,4999.0,4,19996.0
+18198558,FOREVER 21,jeans,3.7,1799.0,4,7196.0
+18094702,Roadster,jeans,3.9,2499.0,3,7497.0
+19842706,Llak Jeans,jeans,4.2,2299.0,4,9196.0
+13768634,Nautica,jeans,4.6,4999.0,4,19996.0
+18973700,Levis,jeans,3.8,4699.0,2,9398.0
+18973728,Levis,jeans,4.4,4399.0,4,17596.0
+18903330,Levis,jeans,4.4,3299.0,1,3299.0
+18973740,Levis,jeans,4.3,4099.0,4,16396.0
+18953840,KETCH,jeans,3.2,1899.0,4,7596.0
+18969982,Allen Solly Junior,jeans,4.2,1799.0,3,5397.0
+18953870,KETCH,jeans,3.8,1749.0,1,1749.0
+19017664,Allen Solly Sport,jeans,3.9,3299.0,4,13196.0
+18925586,KETCH,jeans,3.6,1749.0,4,6996.0
+18734066,Flying Machine,jeans,4.1,2699.0,2,5398.0
+18993370,Blackberrys,jeans,4.3,3295.0,4,13180.0
+15190770,AMERICAN EAGLE OUTFITTERS,jeans,4.0,3999.0,4,15996.0
+22203852,Cantabil,jeans,0.0,3999.0,2,7998.0
+22005330,H&M,jeans,3.8,2999.0,3,8997.0
+22203876,Cantabil,jeans,0.0,3999.0,4,15996.0
+15067844,Flying Machine,jeans,4.1,2399.0,2,4798.0
+19059688,Flying Machine,jeans,3.7,2999.0,1,2999.0
+18960434,Lee,jeans,4.4,3999.0,3,11997.0
+18925582,KETCH,jeans,2.9,1999.0,1,1999.0
+18973952,Levis,jeans,4.1,3499.0,1,3499.0
+18973778,Levis,jeans,3.7,4399.0,2,8798.0
+18689340,Flying Machine,jeans,4.3,2349.0,4,9396.0
+18708638,Dennis Lingo,jeans,3.4,3199.0,2,6398.0
+18734000,Flying Machine,jeans,3.7,2699.0,2,5398.0
+18973790,Levis,jeans,4.3,5599.0,2,11198.0
+21184968,HERE&NOW,jeans,4.6,2399.0,2,4798.0
+18734380,Flying Machine,jeans,3.6,2599.0,3,7797.0
+18736356,H&M,jeans,3.8,2699.0,4,10796.0
+18903148,Levis,jeans,4.3,3899.0,1,3899.0
+18734006,Flying Machine,jeans,4.3,2499.0,1,2499.0
+18928362,AMERICAN EAGLE OUTFITTERS,jeans,4.1,4499.0,4,17996.0
+18964420,American Bull,jeans,4.5,4299.0,1,4299.0
+18734132,Flying Machine,jeans,3.6,2499.0,4,9996.0
+18973914,Levis,jeans,4.4,3799.0,1,3799.0
+15049188,Roadster,jumpsuit,4.5,2099.0,2,4198.0
+19841310,SHOWOFF,kurtas,4.0,1500.0,1,1500.0
+17760672,Cayman,kurtas,4.0,1345.0,4,5380.0
+17656880,Vishudh,kurtas,4.4,1499.0,4,5996.0
+22214714,Nehamta,kurtas,3.7,1227.0,4,4908.0
+16186258,Vishudh,kurtas,4.2,1799.0,4,7196.0
+22110424,VASTRADO,kurtas,5.0,1199.0,4,4796.0
+18637234,House of Pataudi,kurtas,4.2,2499.0,3,7497.0
+17627254,HERE&NOW,kurtas,3.9,1599.0,3,4797.0
+13562488,KSUT,kurtas,4.3,1599.0,1,1599.0
+17644540,Libas,kurtas,4.2,2499.0,4,9996.0
+13506804,Ishin,kurtas,4.1,5199.0,1,5199.0
+18637284,House of Pataudi,kurtas,4.1,3999.0,4,15996.0
+19574714,Cayman,kurtas,4.3,5995.0,4,23980.0
+19580226,DEVOILER,kurtas,4.7,2499.0,3,7497.0
+19513786,Desi Mix,kurtas,4.0,400.0,3,1200.0
+12509548,Ishin,kurtas,0.0,3899.0,2,7798.0
+12524816,HERE&NOW,kurtas,4.1,1199.0,3,3597.0
+12531668,INDYA,kurtas,4.4,2900.0,2,5800.0
+12418812,Indo Era,kurtas,3.7,1599.0,2,3198.0
+19688180,KALINI,kurtas,4.1,1499.0,2,2998.0
+19027440,Jompers,kurta-sets,0.0,3499.0,2,6998.0
+19027402,Jompers,kurta-sets,4.5,3499.0,2,6998.0
+18925432,Indo Era,kurta-sets,4.7,5399.0,1,5399.0
+19027344,Jompers,kurta-sets,0.0,3499.0,3,10497.0
+18997222,IRIDAA JAIPUR,kurta-sets,2.3,3999.0,2,7998.0
+19027362,Jompers,kurta-sets,3.8,2499.0,4,9996.0
+18946592,Indian Virasat,kurta-sets,4.3,2999.0,3,8997.0
+19027352,Jompers,kurta-sets,4.2,2199.0,3,6597.0
+17754514,Indo Era,kurta-sets,4.1,6799.0,2,13598.0
+13781254,Sangria,kurta-sets,3.8,2199.0,1,2199.0
+13771276,Nayo,kurta-sets,3.9,3999.0,2,7998.0
+17754686,ADIVA,kurta-sets,3.8,2999.0,1,2999.0
+19027424,Jompers,kurta-sets,4.1,2199.0,4,8796.0
+19027432,Jompers,kurta-sets,4.4,2999.0,3,8997.0
+15189724,VASTRAMAY,kurta-sets,4.2,1799.0,4,7196.0
+16193712,Do Dhaage,kurta-sets,0.0,4099.0,1,4099.0
+18971008,Sethukrishna,kurta-sets,0.0,3719.0,1,3719.0
+19027420,Jompers,kurta-sets,4.0,3499.0,4,13996.0
+18989660,KID1,kurta-sets,0.0,2599.0,1,2599.0
+14325388,Anouk,kurta-sets,4.1,2899.0,4,11596.0
+17090208,Anouk,kurta-sets,4.3,3399.0,3,10197.0
+13446422,Biba,kurta-sets,4.4,4995.0,4,19980.0
+22198236,MALHAAR,kurtis,3.7,2299.0,3,6897.0
+2184914,SUGAR,lipstick,4.3,499.0,4,1996.0
+16873660,Peter England,lounge-pants,3.9,1049.0,1,1049.0
+18273822,Dreamz by Pantaloons,lounge-shorts,4.5,499.0,4,1996.0
+13478370,Jack & Jones,lounge-tshirts,3.7,1199.0,1,1199.0
+22492614,U.S. Polo Assn.,lounge-tshirts,4.2,699.0,4,2796.0
+13428018,ETC,lounge-tshirts,4.3,799.0,4,3196.0
+19235554,ANNA CREATIONS,mangalsutra,3.8,899.0,2,1798.0
+18932802,DailyObjects,mobile-accessories,0.0,2199.0,1,2199.0
+15898082,Bailey sells,nightdress,4.6,1450.0,2,2900.0
+22721938,Sweet Dreams,nightdress,4.8,999.0,1,999.0
+17832728,Dreamz by Pantaloons,nightdress,4.9,699.0,2,1398.0
+20441812,Kanvin,nightdress,3.6,2499.0,3,7497.0
+17288308,KID1,night-suits,4.0,1499.0,4,5996.0
+18209958,Sweet Dreams,night-suits,4.1,2099.0,1,2099.0
+15973760,Zoom Minimondo,night-suits,4.8,1299.0,1,1299.0
+16512022,MASQ,outdoor-masks,4.5,447.0,4,1788.0
+17359602,Swiss Design,outdoor-masks,3.0,1500.0,1,1500.0
+15749326,W,palazzos,3.6,1499.0,1,1499.0
+17307488,Clora Creation,palazzos,0.0,2399.0,2,4798.0
+17309754,Clora Creation,palazzos,3.9,899.0,1,899.0
+17361920,Indo Era,palazzos,4.2,1799.0,3,5397.0
+17307424,Clora Creation,palazzos,4.0,2399.0,3,7197.0
+17307484,Clora Creation,palazzos,0.0,2399.0,4,9596.0
+17386184,Clora Creation,palazzos,0.0,1299.0,1,1299.0
+17321108,TAG 7,palazzos,3.6,1579.0,4,6316.0
+17288460,Cutiekins,palazzos,4.2,1099.0,3,3297.0
+17307462,Clora Creation,palazzos,0.0,2399.0,1,2399.0
+17309774,Clora Creation,palazzos,3.8,1999.0,1,1999.0
+15114984,Go Colors,palazzos,4.0,899.0,4,3596.0
+15782402,BEARDO,perfume-and-body-mist,4.4,2700.0,3,8100.0
+15715190,Salona Bichona,pillow-covers,3.7,499.0,1,499.0
+15720606,Rubans,ring,3.5,1890.0,4,7560.0
+15294314,Zaveri Pearls,ring,4.4,1995.0,3,5985.0
+16254760,Zaveri Pearls,ring,4.2,2250.0,4,9000.0
+10601120,Saral Home,runners,0.0,2499.0,2,4998.0
+10018911,SEJ by Nisha Gupta,runners,4.5,1849.0,1,1849.0
+12944202,Saral Home,runners,0.0,799.0,2,1598.0
+15679734,John Karsun,sandals,2.7,3649.0,3,10947.0
+10044165,Coolers,sandals,4.2,799.0,2,1598.0
+17696210,Yellow Bee,sandals,4.0,499.0,2,998.0
+12932560,Eego Italy,sandals,3.5,2999.0,3,8997.0
+19183770,Crocs,sandals,4.1,3295.0,4,13180.0
+18949542,Red Chief,sandals,4.3,3099.0,2,6198.0
+15725544,SALWAR STUDIO,saree-blouse,4.1,3555.0,4,14220.0
+14654046,SALWAR STUDIO,saree-blouse,4.4,4995.0,2,9990.0
+19698082,Mitera,sarees,3.5,2599.0,4,10396.0
+17314272,Saree mall,sarees,3.4,4799.0,3,14397.0
+21425266,Satrani,sarees,3.6,4699.0,2,9398.0
+18462146,KALINI,sarees,3.4,1599.0,3,4797.0
+18465340,Silk Land,sarees,4.1,4125.0,2,8250.0
+17292364,Mitera,sarees,4.0,4199.0,3,12597.0
+17292396,Mitera,sarees,0.0,6999.0,3,20997.0
+17275964,Mitera,sarees,0.0,2999.0,2,5998.0
+17292330,Mitera,sarees,3.8,4599.0,2,9198.0
+17349470,Mitera,sarees,0.0,5499.0,2,10998.0
+16273460,Saree mall,sarees,0.0,6599.0,1,6599.0
+16287798,Saree mall,sarees,0.0,5299.0,4,21196.0
+16287654,Saree mall,sarees,4.1,4099.0,1,4099.0
+16287750,Saree mall,sarees,0.0,4099.0,1,4099.0
+16287690,Saree mall,sarees,0.0,4099.0,3,12297.0
+16287830,Saree mall,sarees,4.2,4099.0,2,8198.0
+16287694,Saree mall,sarees,0.0,4099.0,4,16396.0
+16287764,Saree mall,sarees,4.1,4799.0,3,14397.0
+14975360,KALINI,sarees,3.9,2396.0,1,2396.0
+19233030,Satrani,sarees,0.0,4612.0,2,9224.0
+19823504,VAIRAGEE,sarees,4.2,9995.0,3,29985.0
+19305196,MARGI DESIGNERS,sarees,0.0,4499.0,2,8998.0
+16293500,BELLEZIYA,scarves,4.3,1249.0,3,3747.0
+16293432,BELLEZIYA,scarves,4.7,1499.0,2,2998.0
+14487194,Lotus Botanicals,shampoo-and-conditioner,4.0,495.0,1,495.0
+14472340,Earth Rhythm,shampoo-and-conditioner,4.1,379.0,4,1516.0
+16779444,FIXDERMA COSMETIC LABORATORIES,shampoo-and-conditioner,4.8,1250.0,1,1250.0
+15880308,Sirona,shaving-essentials,4.9,294.0,4,1176.0
+17332192,KISAH,sherwani,4.3,13099.0,2,26198.0
+17332264,KISAH,sherwani,0.0,13799.0,3,41397.0
+17332220,KISAH,sherwani,3.8,16199.0,1,16199.0
+17332288,KISAH,sherwani,0.0,22199.0,4,88796.0
+17332244,KISAH,sherwani,0.0,12599.0,1,12599.0
+18719236,SPYKAR,shirts,2.9,2999.0,4,11996.0
+18960048,The Indian Garage Co,shirts,4.2,1749.0,1,1749.0
+18960188,The Indian Garage Co,shirts,4.4,1749.0,4,6996.0
+18960016,The Indian Garage Co,shirts,4.0,1749.0,4,6996.0
+18996778,U.S. Polo Assn.,shirts,4.2,2599.0,2,5198.0
+18996772,U.S. Polo Assn.,shirts,4.9,2799.0,4,11196.0
+18719418,SPYKAR,shirts,0.0,2799.0,2,5598.0
+18960086,The Indian Garage Co,shirts,4.5,1749.0,4,6996.0
+18960098,The Indian Garage Co,shirts,3.8,1749.0,3,5247.0
+18971858,Sztori,shirts,4.0,2699.0,3,8097.0
+17304036,SPYKAR,shirts,4.0,2199.0,3,6597.0
+17377642,Roadster,shirts,4.0,1499.0,4,5996.0
+18463946,Lee,shirts,4.5,2399.0,2,4798.0
+13621622,U.S. Polo Assn.,shirts,4.4,2399.0,2,4798.0
+13480184,Flying Machine,shirts,3.7,1699.0,4,6796.0
+17719808,Louis Philippe Jeans,shirts,4.5,2199.0,3,6597.0
+18759238,HERE&NOW,shirts,4.3,1399.0,3,4197.0
+20394602,Cantabil,shirts,4.4,1999.0,2,3998.0
+13672974,WROGN,shirts,4.1,2599.0,3,7797.0
+13694492,Ecentric,shirts,4.5,2499.0,1,2499.0
+21388884,French Connection,shirts,4.3,2199.0,2,4398.0
+13681812,Ecentric,shirts,4.0,2499.0,3,7497.0
+21396820,Jack & Jones,shirts,4.4,3499.0,2,6998.0
+16042682,Nautica,shirts,4.2,3599.0,1,3599.0
+14519404,The Indian Garage Co,shirts,3.9,1749.0,2,3498.0
+18996754,U.S. Polo Assn.,shirts,4.1,2599.0,2,5198.0
+18927466,U.S. Polo Assn.,shirts,4.0,2299.0,2,4598.0
+17296250,CAVIO,shirts,4.3,1290.0,2,2580.0
+17297320,Antony Morato,shirts,0.0,6999.0,1,6999.0
+17280264,HIGHLANDER,shirts,4.2,1199.0,4,4796.0
+17355950,Mast & Harbour,shirts,4.0,1999.0,2,3998.0
+17313694,JAINISH,shirts,3.0,1999.0,2,3998.0
+17356740,Mast & Harbour,shirts,3.9,1899.0,3,5697.0
+17320764,Bruun & Stengade,shirts,0.0,6499.0,2,12998.0
+17363588,JAINISH,shirts,3.8,1499.0,3,4497.0
+17307612,Louis Philippe Jeans,shirts,4.3,2199.0,4,8796.0
+17345842,JC Collection,shirts,4.1,3499.0,1,3499.0
+17322090,JAINISH,shirts,3.3,1399.0,1,1399.0
+17354282,JAINISH,shirts,4.0,999.0,4,3996.0
+17278954,KETCH,shirts,4.0,1249.0,1,1249.0
+17289046,Roadster,shirts,3.7,1699.0,4,6796.0
+17327438,Dream of Glory Inc,shirts,2.8,4398.0,4,17592.0
+17300314,John Pride,shirts,3.8,1899.0,4,7596.0
+17307656,SIMON CARTER LONDON,shirts,4.6,2799.0,1,2799.0
+17313630,JAINISH,shirts,4.1,1999.0,3,5997.0
+17342230,Pepe Jeans,shirts,4.3,1599.0,4,6396.0
+17331296,Fabindia,shirts,4.4,1699.0,2,3398.0
+17345374,Pepe Jeans,shirts,4.0,2499.0,1,2499.0
+17355884,Mast & Harbour,shirts,4.1,1999.0,4,7996.0
+17322122,JAINISH,shirts,4.0,1599.0,4,6396.0
+17293106,DressBerry,shirts,4.2,1599.0,2,3198.0
+17342236,Pepe Jeans,shirts,4.4,1599.0,3,4797.0
+17322136,JAINISH,shirts,4.0,1399.0,3,4197.0
+17375000,ColorPlus,shirts,4.5,2399.0,3,7197.0
+17355886,Mast & Harbour,shirts,3.8,1999.0,4,7996.0
+18045128,Gini and Jony,shirts,3.5,1149.0,4,4596.0
+17289100,Roadster,shirts,4.3,1899.0,4,7596.0
+17313676,JAINISH,shirts,4.0,1499.0,1,1499.0
+17302022,Pantaloons Junior,shirts,4.4,799.0,2,1598.0
+17313952,KETCH,shirts,3.9,999.0,4,3996.0
+17352294,Mast & Harbour,shirts,4.0,2099.0,2,4198.0
+22326558,Dennis Lingo,shirts,3.3,2499.0,2,4998.0
+18960146,The Indian Garage Co,shirts,4.0,1749.0,3,5247.0
+18970712,Tommy Hilfiger,shirts,4.5,3299.0,1,3299.0
+18960126,The Indian Garage Co,shirts,4.1,1749.0,4,6996.0
+18960118,The Indian Garage Co,shirts,3.9,1749.0,3,5247.0
+18970848,Tommy Hilfiger,shirts,4.6,2799.0,3,8397.0
+18969276,Ruhaans,shirts,4.1,1399.0,4,5596.0
+18946970,YOVISH,shirts,3.8,3499.0,2,6998.0
+18959846,bigbanana,shirts,3.5,2399.0,3,7197.0
+13692666,M&H Our Water,shirts,3.7,1899.0,2,3798.0
+13692652,M&H Our Water,shirts,4.2,2499.0,1,2499.0
+13768790,Nautica,shirts,4.3,3299.0,2,6598.0
+13453254,DENNISON,shirts,4.6,2199.0,1,2199.0
+18450788,Nautica,shirts,4.3,4299.0,2,8598.0
+18690268,Dennis Lingo,shirts,4.6,1999.0,3,5997.0
+13770578,Nautica,shirts,4.4,2799.0,3,8397.0
+13675502,Flying Machine,shirts,4.1,1799.0,1,1799.0
+18734674,Flying Machine,shirts,3.9,999.0,4,3996.0
+13775106,RARE RABBIT,shirts,4.4,3299.0,1,3299.0
+13470886,Roadster,shirts,4.1,1399.0,1,1399.0
+13722850,Roadster,shirts,4.4,1999.0,2,3998.0
+13675482,Flying Machine,shirts,3.8,1799.0,2,3598.0
+18443082,Marks & Spencer,shirts,4.3,1999.0,1,1999.0
+20042586,Flying Machine,shirts,4.4,1799.0,3,5397.0
+20308616,Arrow,shirts,4.0,2499.0,2,4998.0
+20009218,Peter England,shirts,3.9,2299.0,4,9196.0
+20308496,Arrow,shirts,4.3,2499.0,2,4998.0
+20042696,Flying Machine,shirts,3.9,1999.0,2,3998.0
+20308670,Arrow,shirts,4.7,2399.0,4,9596.0
+19999300,Dennis Lingo,shirts,4.4,2499.0,1,2499.0
+19822716,Oxolloxo,shirts,2.8,1849.0,4,7396.0
+20308620,Arrow,shirts,4.0,2499.0,1,2499.0
+18960194,The Indian Garage Co,shirts,3.9,1749.0,1,1749.0
+19276504,Turtle,shirts,4.7,1399.0,1,1399.0
+19299798,Louis Philippe,shirts,4.4,2799.0,4,11196.0
+18903374,Levis,shirts,4.6,2599.0,1,2599.0
+18947596,KASSUALLY,shorts,4.7,1799.0,3,5397.0
+18946864,Cub McPaws,shorts,4.5,1499.0,4,5996.0
+18921438,Gini and Jony,shorts,4.6,1599.0,3,4797.0
+13624708,Nike,shorts,4.4,1795.0,1,1795.0
+18645102,DChica,shorts,4.3,599.0,2,1198.0
+13695234,HRX by Hrithik Roshan,shorts,4.4,1499.0,1,1499.0
+13610026,HRX by Hrithik Roshan,shorts,4.2,1899.0,3,5697.0
+16051700,Miaz Lifestyle,shorts,0.0,1999.0,3,5997.0
+14561272,ASICS,shorts,5.0,2299.0,4,9196.0
+16051704,Miaz Lifestyle,shorts,0.0,1999.0,2,3998.0
+14494548,CUTECUMBER,shorts,4.3,650.0,4,2600.0
+14496210,CUTECUMBER,shorts,4.6,650.0,3,1950.0
+16043840,BRINNS,shorts,0.0,1699.0,1,1699.0
+18942852,FITINC,shorts,4.4,999.0,2,1998.0
+18650484,CLUB A9,shorts,4.5,699.0,1,699.0
+19024468,Blackberrys,shorts,4.1,1695.0,1,1695.0
+17333612,UNDER ARMOUR,shorts,3.6,2499.0,2,4998.0
+17332648,Tommy Hilfiger,shorts,4.7,2999.0,4,11996.0
+15177608,HRX by Hrithik Roshan,shorts,4.5,1399.0,1,1399.0
+18947600,KASSUALLY,shorts,4.7,1899.0,3,5697.0
+18658050,Allen Solly,shorts,4.6,1799.0,1,1799.0
+17341550,TIED RIBBONS,showpieces,0.0,2499.0,2,4998.0
+13572038,Shae by SASSAFRAS,skirts,4.3,1999.0,2,3998.0
+17367638,Berrylush,skirts,4.3,1199.0,2,2398.0
+17299116,Clora Creation,skirts,0.0,1599.0,4,6396.0
+17306258,Purple Feather,skirts,4.2,1499.0,1,1499.0
+17332132,Mayra,skirts,3.8,1895.0,4,7580.0
+17367634,Berrylush,skirts,4.3,1399.0,4,5596.0
+17745816,Lancer,sports-shoes,4.0,1999.0,2,3998.0
+17631178,Slazenger,sports-shoes,3.7,3599.0,2,7198.0
+13686682,Campus,sports-shoes,4.1,799.0,4,3196.0
+14480064,AfroJack,sports-shoes,3.1,3995.0,1,3995.0
+10667394,Campus,sports-shoes,4.1,1499.0,3,4497.0
+20071104,ADIDAS,sports-shoes,4.5,4299.0,4,17196.0
+20072084,ADIDAS,sports-shoes,4.1,5999.0,1,5999.0
+20071622,ADIDAS,sports-shoes,3.2,11999.0,2,23998.0
+20071558,ADIDAS,sports-shoes,4.1,3599.0,2,7198.0
+20071402,ADIDAS,sports-shoes,4.5,4599.0,1,4599.0
+20070948,ADIDAS,sports-shoes,4.1,5999.0,3,17997.0
+20070966,ADIDAS,sports-shoes,4.2,4799.0,2,9598.0
+20075460,UCLA,sports-shoes,3.7,4199.0,2,8398.0
+20071236,ADIDAS,sports-shoes,4.3,5299.0,2,10598.0
+22054912,UNDER ARMOUR,sports-shoes,3.9,13499.0,1,13499.0
+14208408,TRASE,sports-shoes,4.2,999.0,4,3996.0
+11441718,Duke,sports-shoes,4.2,2695.0,2,5390.0
+19324484,ELEVAR,sports-shoes,3.7,6490.0,4,25960.0
+11627996,Yuuki,sports-shoes,4.2,2999.0,3,8997.0
+11963938,FAUSTO,sports-shoes,3.9,899.0,2,1798.0
+19334944,ELEVAR,sports-shoes,3.2,5490.0,2,10980.0
+11986876,FAUSTO,sports-shoes,4.3,899.0,3,2697.0
+19334760,ELEVAR,sports-shoes,3.0,5490.0,2,10980.0
+19334942,ELEVAR,sports-shoes,4.3,5490.0,4,21960.0
+13484354,Puma,sports-shoes,4.3,12999.0,1,12999.0
+11960808,Campus,sports-shoes,4.2,1499.0,4,5996.0
+19102564,Puma,sports-shoes,4.3,11999.0,1,11999.0
+11400234,Yuuki,sports-shoes,3.9,2499.0,1,2499.0
+14323336,TRASE,sports-shoes,3.9,1299.0,4,5196.0
+19402102,U.S. Polo Assn.,sports-shoes,4.0,4999.0,4,19996.0
+14208394,TRASE,sports-shoes,4.5,999.0,4,3996.0
+16880520,PUMA Hoops,sports-shoes,4.1,8999.0,4,35996.0
+18356356,Nautica,sports-shoes,4.4,5499.0,3,16497.0
+18906230,Skechers,sports-shoes,4.5,7499.0,2,14998.0
+18373464,ADIDAS,sports-shoes,4.1,3599.0,1,3599.0
+16824638,Puma,sports-shoes,4.3,9999.0,4,39996.0
+18374802,ADIDAS,sports-shoes,4.5,12999.0,4,51996.0
+16824670,Puma,sports-shoes,4.1,9999.0,4,39996.0
+18374200,ADIDAS,sports-shoes,3.9,16999.0,3,50997.0
+18374286,ADIDAS,sports-shoes,4.2,5999.0,4,23996.0
+18382842,WROGN ACTIVE,sports-shoes,3.7,3599.0,4,14396.0
+18373646,ADIDAS,sports-shoes,4.3,3799.0,4,15196.0
+18373380,ADIDAS,sports-shoes,4.2,4799.0,2,9598.0
+16864474,Puma,sports-shoes,5.0,6999.0,3,20997.0
+18374978,ADIDAS,sports-shoes,4.4,4999.0,4,19996.0
+18906226,Skechers,sports-shoes,4.4,6499.0,1,6499.0
+18374614,ADIDAS,sports-shoes,4.3,18999.0,1,18999.0
+16305908,Campus,sports-shoes,4.3,1399.0,1,1399.0
+16279696,Forever Glam by Pantaloons,sports-shoes,4.3,1699.0,3,5097.0
+13072098,Puma,sports-shoes,4.7,4499.0,3,13497.0
+19298764,Campus,sports-shoes,4.6,1299.0,1,1299.0
+17609480,IDEE,sunglasses,2.2,3480.0,4,13920.0
+18430170,Roadster,sweaters,4.3,1499.0,3,4497.0
+10349091,Monte Carlo,sweaters,4.6,2840.0,1,2840.0
+20033282,RVK,sweaters,3.7,999.0,1,999.0
+10135715,Mast & Harbour,sweaters,4.0,1599.0,4,6396.0
+21296678,Marks & Spencer,sweaters,4.6,3999.0,2,7998.0
+20721298,Juniors by Lifestyle,sweaters,4.7,599.0,3,1797.0
+19432310,Marks & Spencer,sweaters,4.2,3999.0,4,15996.0
+11843058,MANGO,sweaters,4.3,2590.0,1,2590.0
+14279418,Harvard,sweaters,3.9,1799.0,1,1799.0
+14335774,INVICTUS,sweaters,3.6,1699.0,4,6796.0
+20712132,Trendyol,sweaters,4.4,3599.0,3,10797.0
+11990920,Roadster,sweaters,4.3,1699.0,2,3398.0
+19055422,Monte Carlo,sweaters,4.2,2080.0,2,4160.0
+14280312,Harvard,sweaters,3.9,1999.0,1,1999.0
+19432716,Marks & Spencer,sweaters,3.9,2999.0,3,8997.0
+14335776,INVICTUS,sweaters,4.0,2199.0,2,4398.0
+11990978,Roadster,sweaters,4.4,1999.0,3,5997.0
+11972948,Mast & Harbour,sweaters,4.1,1599.0,3,4797.0
+11990952,Roadster,sweaters,4.3,1699.0,1,1699.0
+14280306,Harvard,sweaters,3.7,2399.0,2,4798.0
+14280286,Harvard,sweaters,3.3,1999.0,4,7996.0
+14279412,Harvard,sweaters,4.2,1899.0,1,1899.0
+18241626,Roadster,sweaters,4.5,1699.0,2,3398.0
+18241400,Roadster,sweaters,3.8,2699.0,2,5398.0
+18241644,Roadster,sweaters,4.3,1999.0,2,3998.0
+18240570,all about you,sweaters,4.3,2499.0,2,4998.0
+18240582,all about you,sweaters,4.4,2499.0,2,4998.0
+18337610,Roadster,sweaters,4.3,2299.0,3,6897.0
+18240902,Mr Bowerbird,sweaters,4.0,3299.0,1,3299.0
+18260060,Mast & Harbour,sweaters,3.7,2099.0,3,6297.0
+18241294,Roadster,sweaters,4.3,1699.0,4,6796.0
+18180102,INVICTUS,sweaters,4.0,1698.0,2,3396.0
+18241298,Roadster,sweaters,4.3,1999.0,1,1999.0
+18260104,Mast & Harbour,sweaters,4.5,2399.0,2,4798.0
+17154952,V Dot,sweatshirts,0.0,1999.0,1,1999.0
+18820948,Tommy Hilfiger,sweatshirts,4.3,5599.0,3,16797.0
+18929536,Mast & Harbour,sweatshirts,3.6,1999.0,1,1999.0
+17156676,Thomas Scott,sweatshirts,3.6,4799.0,4,19196.0
+18825046,Tommy Hilfiger,sweatshirts,4.2,4599.0,4,18396.0
+17157846,Thomas Scott,sweatshirts,3.5,3999.0,1,3999.0
+18825174,Tommy Hilfiger,sweatshirts,3.2,5599.0,1,5599.0
+18929548,Mast & Harbour,sweatshirts,4.4,1599.0,1,1599.0
+9867517,ether,sweatshirts,4.1,1299.0,1,1299.0
+6510138,Roadster,sweatshirts,4.3,1999.0,4,7996.0
+18071360,ether,sweatshirts,4.2,1399.0,2,2798.0
+18825178,Tommy Hilfiger,sweatshirts,4.3,4999.0,1,4999.0
+18830500,White Snow,sweatshirts,4.2,1599.0,1,1599.0
+9656079,Sztori,sweatshirts,4.2,2499.0,4,9996.0
+20389784,SPYKAR,sweatshirts,4.6,2999.0,4,11996.0
+18820780,Tommy Hilfiger,sweatshirts,4.0,4999.0,3,14997.0
+18820580,Tommy Hilfiger,sweatshirts,4.2,5599.0,1,5599.0
+20389690,max,sweatshirts,4.0,699.0,3,2097.0
+10388101,Allen Solly Woman,sweatshirts,4.5,1799.0,4,7196.0
+18723286,Allen Solly Junior,sweatshirts,3.7,1699.0,4,6796.0
+17121312,Marks & Spencer,swim-tops,4.5,2499.0,2,4998.0
+17844560,DREAM WEAVERZ,table-covers,4.1,999.0,1,999.0
+1605539,Kanvin,thermal-bottoms,4.0,799.0,3,2397.0
+17634528,Sweet Dreams,tights,3.5,749.0,4,2996.0
+18614510,Oxolloxo,tops,0.0,2299.0,4,9196.0
+18972586,MALHAAR,tops,0.0,3329.0,3,9987.0
+18937628,her by invictus,tops,4.2,1398.0,2,2796.0
+18972622,MALHAAR,tops,0.0,3329.0,4,13316.0
+18979466,KiddoPanti,tops,0.0,799.0,1,799.0
+18972618,MALHAAR,tops,0.0,3329.0,4,13316.0
+18990292,HILL STREET,tops,4.5,1699.0,1,1699.0
+18972748,Zink London,tops,4.3,1499.0,3,4497.0
+18998738,KALINI,tops,0.0,1999.0,1,1999.0
+18904492,Levis,tops,4.4,2099.0,3,6297.0
+18972644,MALHAAR,tops,0.0,3329.0,1,3329.0
+13583566,Chemistry,tops,4.5,1499.0,3,4497.0
+18551958,SHECZZAR,tops,3.8,799.0,1,799.0
+13466462,Global Desi,tops,3.4,1599.0,2,3198.0
+13611204,Roadster,tops,4.2,1889.0,1,1889.0
+18657642,max,tops,4.5,399.0,1,399.0
+13611420,Roadster,tops,3.8,1499.0,2,2998.0
+13573344,Roadster,tops,4.0,699.0,4,2796.0
+13616586,MAGRE,tops,3.9,1590.0,4,6360.0
+20222156,CODE by Lifestyle,tops,4.1,799.0,1,799.0
+20405594,AAHWAN,tops,3.2,999.0,2,1998.0
+20222142,CODE by Lifestyle,tops,4.5,499.0,1,499.0
+20092320,Forever New,tops,4.4,3200.0,3,9600.0
+20222144,CODE by Lifestyle,tops,4.0,1599.0,3,4797.0
+13677014,Cation,tops,0.0,1299.0,1,1299.0
+14538300,Friskers,tops,4.0,499.0,4,1996.0
+15888984,Friskers,tops,0.0,978.0,4,3912.0
+22151840,FabAlley,tops,3.6,1800.0,1,1800.0
+18601474,BUY NEW TREND,tops,3.0,1399.0,1,1399.0
+18478530,Paralians,tops,3.7,999.0,3,2997.0
+18639246,Jockey,tops,4.5,329.0,4,1316.0
+18389746,Ginger by Lifestyle,tops,3.9,499.0,1,499.0
+17763368,Honey by Pantaloons,tops,4.0,1299.0,3,3897.0
+17628058,Maishi,tops,4.6,1599.0,4,6396.0
+17628394,ONLY,tops,4.2,2499.0,2,4998.0
+4441374,Mayra,tops,3.5,1095.0,3,3285.0
+17178948,FOREVER 21,tops,4.4,1049.0,4,4196.0
+17132266,Athena,tops,3.7,1499.0,4,5996.0
+19017874,DressBerry,tops,3.3,1099.0,3,3297.0
+17108782,DressBerry,tops,3.6,1299.0,2,2598.0
+17108574,4WRD by Dressberry,tops,4.2,1199.0,3,3597.0
+18803468,Oxolloxo,tops,0.0,1499.0,4,5996.0
+17253026,Athena,tops,3.9,1699.0,1,1699.0
+22649882,IUGA,tops,3.0,1299.0,1,1299.0
+2511559,Disney by Wear Your Mind,tops,3.5,1998.0,3,5994.0
+18879656,MANGO,tops,4.3,1990.0,4,7960.0
+18626976,ONLY,tops,4.2,2299.0,1,2299.0
+19018090,DressBerry,tops,4.1,799.0,4,3196.0
+18972770,Zink London,tops,3.3,1299.0,3,3897.0
+17121092,Marks & Spencer,tops,4.0,2999.0,1,2999.0
+19018146,DressBerry,tops,4.0,899.0,4,3596.0
+17268524,H&M,tops,4.4,699.0,1,699.0
+18854764,KAMI KUBI,tops,5.0,1299.0,3,3897.0
+18904472,Levis,tops,4.4,2299.0,4,9196.0
+18972596,MALHAAR,tops,0.0,3329.0,1,3329.0
+17124636,H&M,tops,3.7,799.0,3,2397.0
+17255462,NEUDIS,tops,4.3,1499.0,1,1499.0
+17120826,Hancock,tops,4.1,1999.0,1,1999.0
+18998684,KALINI,tops,3.3,1999.0,2,3998.0
+18814970,Berrylush,tops,4.6,1299.0,2,2598.0
+18980478,DEBONATELLA,tops,3.0,600.0,3,1800.0
+17270406,Mafadeny,tops,3.3,1649.0,2,3298.0
+18900376,DressBerry,tops,3.7,699.0,3,2097.0
+17257582,FableStreet,tops,4.2,1795.0,2,3590.0
+17255498,NEUDIS,tops,4.1,1499.0,1,1499.0
+22747068,Madame,tops,4.0,1399.0,3,4197.0
+19017944,DressBerry,tops,4.1,799.0,3,2397.0
+17114132,HERE&NOW,tops,4.1,999.0,1,999.0
+18948348,Madame,tops,4.2,1899.0,3,5697.0
+17255876,Cutiekins,tops,3.3,1099.0,3,3297.0
+4380622,Bhama Couture,tops,2.9,1799.0,2,3598.0
+18975854,Honey by Pantaloons,tops,0.0,1099.0,3,3297.0
+18849012,Fleximaa,tops,0.0,1799.0,4,7196.0
+17944580,ONLY,tops,4.2,2299.0,1,2299.0
+8330413,ESPRIT,tops,3.3,2799.0,2,5598.0
+7206166,Mayra,tops,2.4,895.0,2,1790.0
+9540499,Marie Claire,tops,3.3,1499.0,4,5996.0
+18944780,Miaz Lifestyle,tops,2.7,1499.0,1,1499.0
+20383782,Chemistry,tops,4.5,1299.0,1,1299.0
+17889776,CHIMPAAANZEE,tops,3.9,699.0,2,1398.0
+9100721,Globus,tops,3.6,1199.0,3,3597.0
+18001072,Harpa,tops,3.9,1299.0,2,2598.0
+17938374,CODE by Lifestyle,tops,4.4,999.0,1,999.0
+8675767,MANGO,tops,4.2,3490.0,4,13960.0
+17973634,InWeave,tops,4.4,2199.0,2,4398.0
+7117598,ONLY,tops,4.2,1499.0,1,1499.0
+17950198,PURVAJA,tops,3.4,2199.0,2,4398.0
+18847712,KALINI,tops,4.4,1975.0,3,5925.0
+8365569,Nun,tops,4.9,1495.0,2,2990.0
+7581747,Annabelle by Pantaloons,tops,4.3,899.0,2,1798.0
+9818669,Globus,tops,4.3,999.0,1,999.0
+8367605,Berrylush,tops,4.3,1290.0,1,1290.0
+7183090,Globus,tops,4.2,1299.0,1,1299.0
+9557519,MANGO,tops,5.0,2490.0,2,4980.0
+9327149,Belle Fille,tops,3.8,999.0,3,2997.0
+17976710,MANGO,tops,4.1,3590.0,4,14360.0
+18780000,Popwings,tops,3.7,1999.0,4,7996.0
+7033949,ONLY,tops,3.9,2299.0,1,2299.0
+7461410,Crimsoune Club,tops,3.6,1299.0,1,1299.0
+8807033,Flying Machine,tops,3.7,799.0,2,1598.0
+17950208,PURVAJA,tops,3.5,2199.0,4,8796.0
+19024914,Miaz Lifestyle,tops,0.0,1499.0,1,1499.0
+14340794,MANGO,tops,4.1,2390.0,3,7170.0
+19410570,H&M,tops,4.3,1499.0,3,4497.0
+11811068,Honey by Pantaloons,tops,4.4,999.0,1,999.0
+7829467,Oxolloxo,tops,4.0,1399.0,1,1399.0
+17982570,H&M,tops,4.5,999.0,4,3996.0
+8675465,MANGO,tops,3.3,2990.0,4,11960.0
+17950338,PURVAJA,tops,4.2,2199.0,2,4398.0
+11876926,AND,tops,4.4,1999.0,4,7996.0
+11764192,Oxolloxo,tops,3.4,1299.0,3,3897.0
+11538822,Ajile by Pantaloons,tops,4.2,599.0,3,1797.0
+11878498,DODO & MOA,tops,3.9,1290.0,1,1290.0
+7326508,MISH,tops,4.7,1499.0,4,5996.0
+586846,Cation,tops,4.5,899.0,2,1798.0
+18000968,Harpa,tops,4.4,1049.0,3,3147.0
+18937522,her by invictus,tops,3.9,1298.0,3,3894.0
+18962100,Nike,tops,4.4,2495.0,2,4990.0
+18972666,MALHAAR,tops,0.0,3329.0,2,6658.0
+13748756,Madame,tops,3.6,1599.0,3,4797.0
+22568668,V-Mart,tops,3.7,449.0,3,1347.0
+19297208,Friskers,tops,0.0,1578.0,2,3156.0
+18974594,SPACES,towel-set,4.3,3799.0,3,11397.0
+18974634,AUSTIVO,track-pants,4.5,1899.0,1,1899.0
+18970176,Allen Solly Junior,track-pants,4.6,1599.0,1,1599.0
+18138806,max,track-pants,4.6,599.0,2,1198.0
+18670518,max,track-pants,4.9,599.0,4,2396.0
+17628782,Roadster,track-pants,4.1,1999.0,2,3998.0
+17628712,Roadster,track-pants,4.3,1799.0,2,3598.0
+18537496,Bannos Swagger,track-pants,5.0,1699.0,4,6796.0
+18970196,Allen Solly Junior,track-pants,4.3,1499.0,4,5996.0
+18970104,Allen Solly Junior,track-pants,4.8,1499.0,4,5996.0
+18688608,Nasher Miles,trolley-bag,3.3,17995.0,1,17995.0
+17663904,Pantaloons Junior,trousers,4.6,849.0,3,2547.0
+17760062,H&M,trousers,4.2,1499.0,1,1499.0
+17647372,bebe,trousers,4.2,2899.0,3,8697.0
+17760038,H&M,trousers,4.3,1299.0,1,1299.0
+22323008,Dennis Lingo,trousers,3.8,3099.0,3,9297.0
+19289426,Van Heusen Woman,trousers,4.1,2499.0,1,2499.0
+10704378,Force NXT,trunk,3.2,777.0,4,3108.0
+1993251,FCUK,trunk,3.9,699.0,2,1398.0
+10019547,XYXX,trunk,4.7,1197.0,1,1197.0
+10591036,Van Heusen,trunk,4.5,529.0,3,1587.0
+20042464,XYXX,trunk,4.2,339.0,4,1356.0
+12939888,IC4,trunk,3.5,718.0,1,718.0
+17352320,ether,tshirts,4.4,1099.0,1,1099.0
+17403950,Mast & Harbour,tshirts,4.2,899.0,4,3596.0
+17404018,Mast & Harbour,tshirts,3.9,999.0,1,999.0
+22143924,Urbano Plus,tshirts,3.2,1099.0,2,2198.0
+14619398,ScoldMe,tshirts,0.0,1598.0,1,1598.0
+8901821,UNDER ARMOUR,tshirts,4.3,1999.0,2,3998.0
+919032,Roadster,tshirts,3.8,899.0,2,1798.0
+18817326,Tommy Hilfiger,tshirts,4.4,2799.0,4,11196.0
+8426447,WROGN,tshirts,4.2,1599.0,1,1599.0
+20355284,Roadster,tshirts,4.2,999.0,4,3996.0
+18818696,Tommy Hilfiger,tshirts,4.4,1999.0,1,1999.0
+9213113,Roadster,tshirts,4.1,799.0,1,799.0
+13511732,Puma,tshirts,4.4,3999.0,3,11997.0
+13591994,Camey,tshirts,3.5,999.0,1,999.0
+21439050,Kappa,tshirts,3.2,599.0,4,2396.0
+13615634,U.S. Polo Assn.,tshirts,4.5,1699.0,2,3398.0
+13620624,Roadster,tshirts,4.0,1399.0,1,1399.0
+13502414,Puma,tshirts,4.3,1499.0,3,4497.0
+13621134,Roadster,tshirts,4.1,1399.0,4,5596.0
+17686030,Allen Solly Tribe,tshirts,4.3,1499.0,1,1499.0
+13616400,Arrow New York,tshirts,4.8,899.0,4,3596.0
+13480864,Aeropostale,tshirts,4.2,1199.0,3,3597.0
+13622338,Roadster,tshirts,4.4,899.0,3,2697.0
+16295686,Miss & Chief,tshirts,3.9,1995.0,4,7980.0
+16298856,Friskers,tshirts,0.0,2998.0,1,2998.0
+16277914,Parx,tshirts,4.9,1399.0,2,2798.0
+16292318,Bewakoof,tshirts,4.2,1399.0,3,4197.0
+19201678,Tokyo Talkies,tshirts,4.1,699.0,1,699.0
+16923916,Monte Carlo,tshirts,4.8,835.0,1,835.0
+10143909,CHKOKKO,tshirts,3.7,1665.0,2,3330.0
+20085320,BULLMER,tshirts,4.8,3998.0,3,11994.0
+10555034,Braveo,tshirts,0.0,1099.0,3,3297.0
+12987894,AMERICAN EAGLE OUTFITTERS,tshirts,4.4,1799.0,1,1799.0
+12953958,Allen Solly,tshirts,4.4,999.0,1,999.0
+22629260,max,tshirts,4.4,799.0,2,1598.0
+19291812,Mad Over Print,tshirts,4.8,1599.0,2,3198.0
+19206288,FERANOID,tshirts,4.2,1199.0,3,3597.0
+19264534,Flying Machine,tshirts,4.0,999.0,4,3996.0
+19264536,Flying Machine,tshirts,3.8,1299.0,3,3897.0
+16287616,Juniper,tunics,4.3,1299.0,1,1299.0
+16287462,Juniper,tunics,4.3,1299.0,3,3897.0
+16293014,Nayo,tunics,4.2,1199.0,4,4796.0
+16293018,Nayo,tunics,4.3,1199.0,2,2398.0
+13721540,Art Street,wall-art,3.9,3500.0,4,14000.0
+17716590,Tommy Hilfiger,wallets,4.5,4299.0,4,17196.0
+21112784,Calvin Klein,wallets,0.0,3999.0,4,15996.0
+9452773,Louis Philippe,wallets,4.3,1799.0,2,3598.0
+18864968,Lavie,wallets,4.4,1999.0,4,7996.0
+9029979,Hidesign,wallets,4.4,2595.0,4,10380.0
+16295388,LOUIS STITCH,wallets,4.4,4200.0,4,16800.0
+16295382,LOUIS STITCH,wallets,0.0,4200.0,1,4200.0
+17956822,Fossil,watches,3.9,9995.0,4,39980.0
+17981742,MVMT,watches,4.5,20832.0,2,41664.0
+17697474,Timex,watches,4.9,1995.0,4,7980.0
+7349545,Fantasy World,watches,3.7,499.0,4,1996.0
+8076639,French Connection,watches,4.4,6250.0,2,12500.0
+21948792,Adwitiya Collection,watches,4.1,9709.0,4,38836.0
+9053317,TIMESMITH,watches,3.7,2499.0,2,4998.0
+2466414,Daniel Klein,watches,4.4,6950.0,4,27800.0
+11791782,CASIO,watches,4.6,3595.0,2,7190.0
+19322504,V2A,watches,4.0,1599.0,4,6396.0
+8481603,French Connection,watches,4.5,6250.0,4,25000.0
+13698258,KREDO,watches,3.5,11890.0,1,11890.0
+16896006,GUESS,watches,5.0,8900.0,1,8900.0
+1708108,GIORDANO,watches,2.8,7950.0,4,31800.0
+19280114,Fastrack,watches,4.3,3295.0,4,13180.0
+18601682,BOLDFIT,yoga-mats,3.8,699.0,3,2097.0
