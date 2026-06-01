@@ -1,0 +1,800 @@
+-- ==========================================
+-- SECTION 1
+-- DATA EXPLORATION
+-- SAMPLE DATA, SCHEMA, BASIC OVERVIEW
+-- ==========================================
+
+-- Query 1.1: Display Sample Records
+
+SELECT TOP 10 *
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 1.2: Count Total Records
+
+SELECT COUNT(*) AS TotalRows
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 1.3: Count Unique Orders
+
+SELECT COUNT(DISTINCT Order_ID) AS Total_Orders
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 1.4: View Table Schema
+
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Superstore_Data'
+ORDER BY ORDINAL_POSITION;
+
+--------------------------------------------------
+
+-- Query 1.5: View Available Regions
+
+SELECT DISTINCT Region
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 1.6: View Product Categories
+
+SELECT DISTINCT Category
+FROM Superstore_Data;
+/*
+==========================================
+SECTION 1 SUMMARY - DATA EXPLORATION
+==========================================
+
+1. Dataset Overview:
+The Superstore dataset contains 9,994 transaction
+records and 5,009 unique customer orders.
+
+2. Table Structure:
+The dataset includes customer information,
+order details, product details, geographical
+data, sales metrics, discounts, and profit
+measurements.
+
+3. Regional Coverage:
+Business operations are distributed across
+four regions:
+East, West, Central, and South.
+
+4. Product Categories:
+Products are classified into three major
+categories:
+Technology, Furniture, and Office Supplies.
+
+5. Initial Observation:
+The difference between total records and
+unique orders indicates that many orders
+contain multiple products, resulting in
+multiple rows per order.
+
+Conclusion:
+The dataset provides sufficient transaction,
+customer, product, and regional information
+for comprehensive sales, profit, customer,
+and business performance analysis.
+*/
+
+-- ==========================================
+-- SECTION 2
+-- DATA QUALITY CHECKS
+-- MISSING VALUES, DUPLICATES, VALIDATION
+-- ==========================================
+
+-- Query 2.1: Check Missing Values in Critical Columns
+
+SELECT
+    SUM(CASE WHEN Row_ID IS NULL THEN 1 ELSE 0 END) AS Null_RowID,
+    SUM(CASE WHEN Order_ID IS NULL THEN 1 ELSE 0 END) AS Null_OrderID,
+    SUM(CASE WHEN Customer_ID IS NULL THEN 1 ELSE 0 END) AS Null_CustomerID,
+    SUM(CASE WHEN Sales IS NULL THEN 1 ELSE 0 END) AS Null_Sales,
+    SUM(CASE WHEN Profit IS NULL THEN 1 ELSE 0 END) AS Null_Profit
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 2.2: Check Duplicate Row IDs
+
+SELECT
+    Row_ID,
+    COUNT(*) AS DuplicateCount
+FROM Superstore_Data
+GROUP BY Row_ID
+HAVING COUNT(*) > 1;
+
+--------------------------------------------------
+
+-- Query 2.3: Validate Discount Range
+
+SELECT *
+FROM Superstore_Data
+WHERE Discount < 0
+   OR Discount > 1;
+
+--------------------------------------------------
+
+-- Query 2.4: Check for Negative Sales Values
+
+SELECT *
+FROM Superstore_Data
+WHERE Sales < 0;
+
+--------------------------------------------------
+
+-- Query 2.5: Count Loss-Making Transactions
+
+SELECT
+    COUNT(*) AS NegativeProfitRecords
+FROM Superstore_Data
+WHERE Profit < 0;
+
+--------------------------------------------------
+
+-- Query 2.6: Check Missing Customer Names
+
+SELECT
+    COUNT(*) AS MissingCustomerNames
+FROM Superstore_Data
+WHERE Customer_Name IS NULL;
+
+/*
+==========================================
+SECTION 2 SUMMARY - DATA QUALITY CHECKS
+==========================================
+
+1. Missing Values:
+No missing values were found in critical
+columns including Row_ID, Order_ID,
+Customer_ID, Sales, and Profit.
+
+2. Duplicate Records:
+No duplicate Row_ID values were detected,
+indicating that each transaction record
+is uniquely identified.
+
+3. Discount Validation:
+All discount values fall within the valid
+business range of 0 to 1.
+
+4. Sales Validation:
+No negative sales values were found,
+confirming valid sales transactions.
+
+5. Profit Validation:
+A total of 1,871 records contain negative
+profit values.
+
+These records represent loss-making
+transactions and are considered business
+outcomes rather than data quality issues.
+
+6. Customer Information:
+No missing customer names were detected.
+
+Conclusion:
+The dataset demonstrates strong data quality
+with no significant issues related to missing
+values, duplicates, or invalid business data.
+The only notable observation is the presence
+of loss-making transactions, which provide
+valuable insight for profitability analysis.
+*/
+
+-- ==========================================
+-- SECTION 3
+-- SALES ANALYSIS
+-- SUM, GROUP BY, ORDER BY, TOP
+-- ==========================================
+
+-- Query 3.1: Calculate Total Sales Generated by the Business
+
+SELECT
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 3.2: Compare Sales Performance Across Regions
+
+SELECT
+    Region,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Region
+ORDER BY TotalSales DESC;
+
+--------------------------------------------------
+
+-- Query 3.3: Compare Sales Across Product Categories
+
+SELECT
+    Category,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Category
+ORDER BY TotalSales DESC;
+
+--------------------------------------------------
+
+-- Query 3.4: Compare Sales Contribution by Customer Segment
+
+SELECT
+    Segment,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Segment
+ORDER BY TotalSales DESC;
+
+--------------------------------------------------
+
+-- Query 3.5: Identify the Top-Selling Products
+
+SELECT TOP 10
+    Product_Name,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Product_Name
+ORDER BY TotalSales DESC;
+
+--------------------------------------------------
+
+-- Query 3.6: Compare Sales Performance Across States
+
+SELECT
+    State,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY State
+ORDER BY TotalSales DESC;
+
+--------------------------------------------------
+
+-- Query 3.7: Analyze Yearly Sales Trends
+
+SELECT
+    YEAR(Order_Date) AS SalesYear,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY YEAR(Order_Date)
+ORDER BY SalesYear;
+
+--------------------------------------------------
+
+-- Query 3.8: Analyze Sales Performance by Month
+
+SELECT
+    MONTH(Order_Date) AS SalesMonth,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY MONTH(Order_Date)
+ORDER BY SalesMonth;
+
+--------------------------------------------------
+
+-- Query 3.9: Identify the Highest Value Orders
+
+SELECT TOP 10
+    Order_ID,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Order_ID
+ORDER BY TotalSales DESC;
+
+/*
+==========================================
+SECTION 3 SUMMARY - SALES ANALYSIS
+==========================================
+
+1. Total Sales:
+The business generated total sales of approximately
+2.30 million across all transactions.
+
+2. Regional Performance:
+The West region recorded the highest sales,
+followed by East, Central, and South.
+This indicates that the Western market is the
+strongest revenue contributor.
+
+3. Category Performance:
+Technology generated the highest revenue,
+followed by Furniture and Office Supplies.
+Technology products are the primary sales driver.
+
+4. Customer Segment Performance:
+The Consumer segment contributed the largest
+share of revenue, followed by Corporate and
+Home Office customers.
+
+5. Product Performance:
+Several premium technology and office equipment
+products generated exceptionally high sales.
+The Cisco TelePresence System was the
+highest-selling product.
+
+6. Geographic Analysis:
+Sales are concentrated in a few high-performing
+states, indicating stronger market demand in
+specific regions.
+
+7. Sales Trend Analysis:
+Sales increased steadily from 2014 to 2017,
+demonstrating business growth over time.
+The highest annual sales were recorded in 2017.
+
+8. Seasonal Analysis:
+Monthly sales patterns suggest seasonal demand,
+with stronger performance observed toward the
+end of the year.
+
+9. High-Value Orders:
+A small number of orders contributed
+significantly to overall revenue and represent
+important business transactions.
+
+Conclusion:
+The business demonstrates healthy revenue growth,
+strong performance in the West region, and a
+significant dependence on Technology products and
+Consumer customers for sales generation.
+*/
+-- ==========================================
+-- SECTION 4
+-- PROFIT ANALYSIS
+-- SUM, GROUP BY, ORDER BY, TOP
+-- ==========================================
+
+-- Query 4.1: Calculate Total Profit Generated by the Business
+
+
+SELECT
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data;
+
+--------------------------------------------------
+
+-- Query 4.2: Compare Profitability Across Regions
+
+SELECT
+    Region,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Region
+ORDER BY TotalProfit DESC;
+
+--------------------------------------------------
+
+-- Query 4.3: Compare Profitability Across Product Categories
+
+SELECT
+    Category,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Category
+ORDER BY TotalProfit DESC;
+
+--------------------------------------------------
+
+-- Query 4.4: Identify the Most Profitable Products
+
+SELECT TOP 10
+    Product_Name,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Product_Name
+ORDER BY TotalProfit DESC;
+
+--------------------------------------------------
+
+-- Query 4.5: Identify Products Generating the Highest Losses
+
+SELECT TOP 10
+    Product_Name,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Product_Name
+ORDER BY TotalProfit ASC;
+/*
+==========================================
+SECTION 4 SUMMARY - PROFIT ANALYSIS
+==========================================
+
+1. Total Profit:
+The business generated a total profit of
+286,397.02, indicating overall positive
+financial performance.
+
+2. Regional Profitability:
+The West region generated the highest profit
+(108,418.45), followed by East (91,522.78),
+South (46,749.43), and Central (39,706.36).
+
+This suggests that the Western region is both
+the strongest sales and profit contributor.
+
+3. Category Profitability:
+Technology was the most profitable category
+(145,454.95), followed by Office Supplies
+(122,490.80).
+
+Furniture generated the lowest profit
+(18,451.27), despite having high sales,
+indicating lower profit margins.
+
+4. Most Profitable Products:
+The Canon imageCLASS 2200 Advanced Copier
+generated the highest profit (25,199.93).
+
+Other highly profitable products include:
+- Fellowes PB500 Electric Punch Binding System
+- Hewlett Packard LaserJet 3310 Copier
+
+These products are major contributors to
+business profitability.
+
+5. Loss-Making Products:
+The Cubify CubeX 3D Printer Double Head Print
+generated the highest loss (-8,879.97).
+
+Other significant loss-making products include:
+- Lexmark MX611dhe Monochrome Laser Printer
+- Cubify CubeX 3D Printer Triple Head Print
+
+These products may require review of pricing,
+discount strategies, or inventory management.
+
+Conclusion:
+The business remains profitable overall,
+with Technology products driving the majority
+of profits. The West region performs strongly,
+while several specific products contribute
+substantial losses and should be monitored
+for improvement opportunities.
+*/
+-- ==========================================
+-- SECTION 5
+-- CUSTOMER ANALYSIS
+-- SUM, AVG, COUNT, GROUP BY, ORDER BY, TOP
+-- ==========================================
+
+-- Query 5.1: Top 10 Customers by Sales
+
+SELECT TOP 10
+    Customer_Name,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Customer_Name
+ORDER BY TotalSales DESC;
+
+-------------------------------------------------------
+
+-- Query 5.2: Top 10 Customers by Profit
+
+
+SELECT TOP 10
+    Customer_Name,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Customer_Name
+ORDER BY TotalProfit DESC;
+
+-----------------------------------------------------
+
+-- Query 5.3: Customer Count by Segment
+
+SELECT
+    Segment,
+    COUNT(DISTINCT Customer_ID) AS TotalCustomers
+FROM Superstore_Data
+GROUP BY Segment
+ORDER BY TotalCustomers DESC;
+
+------------------------------------------------------
+
+-- Query 5.4: Average Sales by Customer Segment
+
+SELECT
+    Segment,
+    AVG(Sales) AS AvgSales
+FROM Superstore_Data
+GROUP BY Segment
+ORDER BY AvgSales DESC;
+
+/*
+==========================================
+SECTION 5 SUMMARY - CUSTOMER ANALYSIS
+==========================================
+
+1. Top Customer by Profit:
+Tamara Chand generated the highest total profit
+of approximately 8,981.32.
+
+2. Strong Revenue Contributors:
+Customers such as Raymond Buch, Tom Ashbrook,
+Adrian Barton, Ken Lonsdale, and Sanjit Chand
+contributed significantly to overall sales revenue.
+
+3. Customer Segments:
+Consumer Segment : 409 customers
+Corporate Segment : 236 customers
+Home Office Segment : 148 customers
+
+The Consumer segment represents the largest
+portion of the customer base.
+
+4. Average Sales per Segment:
+Home Office : 240.97
+Corporate   : 233.82
+Consumer    : 223.73
+
+Home Office customers show the highest average
+sales per transaction among all segments.
+
+Conclusion:
+The business relies heavily on a few high-value
+customers for revenue and profitability.
+Although the Consumer segment contains the largest
+number of customers, Home Office customers exhibit
+the highest average spending behavior.
+These insights can help improve customer retention,
+targeted marketing, and sales strategies.
+*/
+-- ==========================================
+-- SECTION 6
+-- PRODUCT ANALYSIS
+-- SUM, PROFIT, GROUP BY, ORDER BY, TOP
+-- ==========================================
+
+-- Query 6.1: Top 10 Products by Sales
+
+SELECT TOP 10
+    Product_Name,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Product_Name
+ORDER BY TotalSales DESC;
+
+------------------------------------------------------
+
+-- Query 6.2: Top 10 Products by Profit
+
+SELECT TOP 10
+    Product_Name,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Product_Name
+ORDER BY TotalProfit DESC;
+
+------------------------------------------------------
+
+-- Query 6.3: Top 10 Loss-Making Products
+
+SELECT TOP 10
+    Product_Name,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Product_Name
+ORDER BY TotalProfit ASC;
+
+------------------------------------------------------
+
+-- Query 6.4: Sales by Sub-Category
+
+SELECT
+    Sub_Category,
+    SUM(Sales) AS TotalSales
+FROM Superstore_Data
+GROUP BY Sub_Category
+ORDER BY TotalSales DESC;
+
+------------------------------------------------------
+
+-- Query 6.5: Profit by Sub-Category
+
+SELECT
+    Sub_Category,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Sub_Category
+ORDER BY TotalProfit DESC;
+
+/*
+==========================================
+SECTION 6 SUMMARY - PRODUCT ANALYSIS
+==========================================
+
+1. Top Revenue Generating Products:
+Products such as Cisco TelePresence System EX90,
+HON 5400 Series Chairs, and GBC DocuBind systems
+generated the highest sales revenue.
+
+2. Most Profitable Product:
+Canon imageCLASS 2200 Advanced Copier generated
+the highest profit of approximately 25,199.93.
+
+3. Other High-Profit Products:
+Fellowes PB500 Electric Punch Binding Machine,
+Hewlett Packard LaserJet 3310 Copier,
+and Canon PC1060 Personal Laser Copier
+contributed significantly to profitability.
+
+4. Loss-Making Products:
+Certain products generated substantial losses,
+including Cubify CubeX 3D Printer Triple Head Print,
+Chromcraft Conference Tables,
+and Bush Advantage Collection Conference Furniture.
+
+5. Sub-Category Performance:
+Appliances, Furnishings, and Paper generated
+strong sales revenue among sub-categories.
+
+6. Least Profitable Sub-Categories:
+Tables and Bookcases produced negative overall
+profits despite generating sales revenue,
+indicating potential pricing or cost issues.
+
+Conclusion:
+Product performance varies significantly across
+the catalog. While several products contribute
+strongly to revenue and profit, some products and
+sub-categories consistently generate losses.
+Management should focus on expanding profitable
+products while reviewing pricing and operational
+costs for loss-making items.
+*/
+
+-- ==========================================
+-- SECTION 7
+-- BUSINESS INSIGHTS
+-- FINAL BUSINESS SUMMARY USING SQL
+-- ==========================================
+
+-- Query 7.1:  Sales and Profit by Region
+
+SELECT
+    Region,
+    SUM(Sales) AS TotalSales,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Region
+ORDER BY TotalSales DESC;
+
+------------------------------------------------------
+
+-- Query 7.2: Yearly Sales and Profit Trend
+
+SELECT
+    YEAR(Order_Date) AS SalesYear,
+    SUM(Sales) AS TotalSales,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY YEAR(Order_Date)
+ORDER BY SalesYear;
+
+------------------------------------------------------
+
+-- Query 7.3: Most Profitable Customer
+
+SELECT TOP 10
+    Customer_Name,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Customer_Name
+ORDER BY TotalProfit DESC;
+
+------------------------------------------------------
+
+-- Query 7.4: Category Performance
+
+SELECT
+    Category,
+    SUM(Sales) AS TotalSales,
+    SUM(Profit) AS TotalProfit
+FROM Superstore_Data
+GROUP BY Category
+ORDER BY TotalProfit DESC;
+
+/*
+==========================================
+SECTION 7 SUMMARY - BUSINESS INSIGHTS
+==========================================
+
+1. Regional Performance:
+The West region generated the highest sales
+(725,457.82) and profit (108,418.45),
+making it the strongest performing region.
+
+The East region ranked second in both sales
+and profitability.
+
+2. Business Growth Trend:
+Sales and profits increased steadily from
+2014 to 2017.
+
+2017 recorded the highest sales
+(733,215.26) and highest profit
+(93,439.27), indicating strong business growth.
+
+3. High-Value Customers:
+Tamara Chand was the most profitable customer,
+generating approximately 8,981.32 in profit.
+
+Other valuable customers include Raymond Buch,
+Sanjit Chand, Hunter Lopez, and Adrian Barton.
+
+4. Category Performance:
+Technology generated the highest sales
+(836,154.03) and highest profit
+(145,454.95).
+
+Office Supplies also delivered strong
+profitability.
+
+Furniture generated substantial sales but
+produced significantly lower profits compared
+to the other categories.
+
+Conclusion:
+The business demonstrates consistent growth,
+with the West region, Technology category,
+and several high-value customers driving
+overall profitability. Future business
+strategies should focus on expanding successful
+product categories, strengthening customer
+relationships, and improving performance in
+lower-profit segments.
+*/
+
+
+/*
+=================================================
+FINAL PROJECT CONCLUSION
+=================================================
+
+The Superstore dataset was successfully analyzed
+using SQL-based data exploration, validation,
+aggregation, and business reporting techniques.
+
+Key Findings:
+
+- The dataset contains 9,994 transaction records
+  and 5,009 unique orders.
+
+- No major data quality issues were identified,
+  including missing values or duplicate Row_IDs.
+
+- The West region generated the highest sales
+  and profit among all regions.
+
+- Technology was the most profitable product
+  category.
+
+- Several products contributed significantly
+  to revenue, while a few products generated
+  consistent losses.
+
+- Customer profitability is concentrated among
+  a small number of high-value customers.
+
+- Business performance improved steadily from
+  2014 through 2017, with 2017 producing the
+  highest sales and profit.
+
+Overall, the analysis demonstrates how SQL can
+be used to transform raw transactional data
+into meaningful business insights that support
+data-driven decision making.
+
+=================================================
+END OF ANALYSIS
+=================================================
+*/
