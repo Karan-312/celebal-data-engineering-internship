@@ -74,6 +74,48 @@ Files include:
 - GitHub
 
 ---
+### Assignment 3 - Advanced SQL (Subqueries, CTEs & Window Functions)
+
+Folder:
+
+```
+Celebal_data_engineering_assignment_3
+```
+
+Topics covered:
+
+* Subqueries
+* Correlated Subqueries
+* Common Table Expressions (CTEs)
+* Window Functions
+* RANK()
+* ROW_NUMBER()
+* PARTITION BY
+* Business Analysis using SQL
+* Customer Sales Analysis
+* Revenue Analysis
+* SQL-Based Reporting
+
+Files include:
+
+* Table Creation Scripts
+* Data Insertion Scripts
+* SQL Practice Questions
+* Mini Project Solutions
+* Business Insights Documentation
+
+Key analyses performed:
+
+* Orders above average sales
+* Highest sales order per customer
+* Customer total sales calculation
+* Customers with above-average sales
+* Customer ranking based on sales
+* Order sequencing using ROW_NUMBER()
+* Top 3 customers by revenue
+* Combined CTE + JOIN + Window Function analysis
+* Customer Sales Insights Mini Project
+* Additional business-focused SQL analysis
 
 ## Internship Track
 
