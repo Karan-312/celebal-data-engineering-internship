@@ -117,6 +117,78 @@ Key analyses performed:
 * Customer Sales Insights Mini Project
 * Additional business-focused SQL analysis
 
+---
+
+### Assignment 4 - Azure Data Factory & Blob Storage Integration
+
+Folder:
+
+```
+Celebal_data_engineering_assignment_4
+```
+
+Topics covered:
+
+* Azure Resource Groups
+* Azure Storage Accounts
+* Azure Blob Storage
+* Blob Containers
+* Azure Data Factory (ADF)
+* Linked Services
+* IAM Role Assignments
+* Datasets
+* Copy Data Pipelines
+* Pipeline Monitoring
+* Data Movement in Azure
+* Cloud Data Integration
+
+Files include:
+
+* Screenshots of Resource Creation
+* Storage Account Configuration
+* Blob Container Setup
+* Azure Data Factory Configuration
+* Linked Service Configuration
+* IAM Role Assignment Evidence
+* Pipeline Creation Screenshots
+* Pipeline Execution Results
+* Data Copy Verification
+* README Documentation
+
+Key activities performed:
+
+* Created Azure Resource Group
+* Created Azure Storage Account
+* Created Source and Destination Blob Containers
+* Uploaded CSV dataset to source container
+* Created Azure Data Factory instance
+* Configured Linked Service between ADF and Blob Storage
+* Assigned IAM permissions for storage access
+* Created source and destination datasets
+* Built and executed Copy Data Pipeline
+* Monitored successful pipeline execution
+* Verified file transfer in destination container
+
+Bonus Mini Project:
+
+* Implemented Get Metadata activity
+* Retrieved file metadata before execution
+* Connected Get Metadata activity with Copy Data activity
+* Successfully executed metadata-driven pipeline workflow
+* Verified successful metadata extraction and data transfer
+
+Technologies Used:
+
+* Microsoft Azure
+* Azure Resource Groups
+* Azure Storage Account
+* Azure Blob Storage
+* Azure Data Factory (ADF)
+* Azure IAM
+* Cloud Data Integration
+* Data Pipelines
+
+
 ## Internship Track
 
 Celebal Technologies – Data Engineering Internship
