@@ -2,7 +2,7 @@
 **Celebal Technologies Summer Internship**
 **Author:** Karan Rudrawal
 
-## 📌 Project Overview
+## 📌 Projfect Overview
 This repository contains the completion of the Week 5 Data Engineering assignment. The primary objective is to demonstrate proficiency in Apache Spark fundamentals, focusing on data cleaning, transformation, and aggregation using PySpark DataFrames. 
 
 Due to the absence of a provided source dataset, this project includes a custom Python script to programmatically generate a robust, synthetic dataset designed specifically to test edge cases (e.g., null values, empty strings, duplicates).
