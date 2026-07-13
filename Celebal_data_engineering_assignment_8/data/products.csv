@@ -1,0 +1,27 @@
+product_id,product_name,category,unit_price,active
+P0001,Wireless Earbuds,Electronics,3960.16,1
+P0002,Bluetooth Speaker,Electronics,399.76,0
+P0003,Smartwatch,Electronics,5314.68,1
+P0004,Power Bank,Electronics,535.32,1
+P0005,USB-C Cable,Electronics,4906.74,1
+P0006,Laptop Stand,Electronics,252.73,1
+P0007,Non-stick Pan,Home & Kitchen,5297.63,1
+P0008,Electric Kettle,Home & Kitchen,3824.26,1
+P0009,Air Fryer,Home & Kitchen,2983.27,0
+P0010,Storage Containers,Home & Kitchen,6602.91,1
+P0011,LED Bulb Pack,Home & Kitchen,6615.6,1
+P0012,Cotton T-Shirt,Fashion,4302.81,1
+P0013,Running Shoes,Fashion,6700.48,1
+P0014,Denim Jacket,Fashion,7565.14,1
+P0015,Leather Wallet,Fashion,944.62,1
+P0016,Sunglasses,Fashion,4323.54,1
+P0017,Fiction Novel,Books,1665.99,1
+P0018,Self-Help Guide,Books,4624.72,1
+P0019,Cookbook,Books,4533.62,0
+P0020,Kids Storybook,Books,6006.95,1
+P0021,Face Serum,Beauty,5444.77,0
+P0022,Sunscreen SPF50,Beauty,7080.17,1
+P0023,Lip Balm Set,Beauty,6370.82,0
+P0024,Hair Oil,Beauty,4111.84,1
+P0025,Mystery Combo Pack,Electronics,,1
+P0026,Clearance Item,Fashion,-199.0,1

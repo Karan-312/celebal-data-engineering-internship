@@ -1,0 +1,29 @@
+=== cleaning customers ===
+customers: dropped 2 rows with missing customer_id
+customers: dropped 6 duplicate customer_id rows
+customers: blanked 0 malformed emails (kept the row)
+
+=== cleaning products ===
+products: filled 1 missing prices with category median
+products: fixed 1 negative unit_price values (took absolute value)
+
+=== cleaning orders ===
+orders: dropped 1 duplicate order_id rows
+orders: dropped 5 orders with an unknown customer_id (orphaned FK)
+orders: dropped 1 orders with an unparsable order_date
+orders: 5006 raw rows -> 4999 clean rows
+
+=== cleaning order_items ===
+order_items: dropped 17 items with an unknown order_id (orphaned FK)
+order_items: dropped 3 items with an unknown product_id (orphaned FK)
+order_items: dropped 164 items with a zero/negative/invalid quantity
+order_items: 8623 raw rows -> 8439 clean rows
+
+loaded clean tables into /home/claude/ecommerce_analytics/ecommerce.db
+
+--- post-load sanity check ---
+orphaned orders (no matching customer): 0
+orphaned order_items (no matching order): 0
+order_items with bad quantity: 0
+products with negative price: 0
+all checks passed.
