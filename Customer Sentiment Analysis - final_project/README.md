@@ -2,8 +2,6 @@
 
 > **Celebal Technologies Final Project** | Databricks Lakeflow Declarative Pipelines (DLT) | Medallion Architecture
 
-[![CI](https://github.com/your-username/celebal-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/celebal-data-engineering/actions)
-
 ---
 
 ## 📐 Architecture Overview
