@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Databricks
+.databricks/
+
+# Generated output data (large files — re-generate with data_generator/)
+output/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
